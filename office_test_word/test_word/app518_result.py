@@ -153,7 +153,7 @@ def getValue(args):
             print("[请修改显示参数]")
 
     print("显现 合计：")
-    for y in [20, 13]:
+    for y in [21, 13]:
         p0 = 0
         p1 = 0
         p2 = 0
@@ -207,7 +207,7 @@ def getValue(args):
         print(dict4)
 
     print("error 合计：")
-    for x in [20, 13]:
+    for x in [21, 13]:
         error0 = 0
         error1 = 0
         error2 = 0
@@ -261,7 +261,7 @@ def getValue(args):
         print(dict4)
 
     print("pass 合计：")
-    for x in [20, 13]:
+    for x in [21, 13]:
         rst0 = 0
         rst1 = 0
         rst2 = 0
