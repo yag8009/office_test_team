@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b7c0861-7baa-43ea-81c6-ab43afffc196" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Diss_Platform/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Diss_Platform/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/css/autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/css/changelists.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/css/forms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/css/responsive_rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/css/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/css/ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/css/vendor/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/css/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/css/widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/fonts/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/fonts/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/calendar-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/icon-addlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/icon-alert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/icon-calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/icon-changelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/icon-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/icon-deletelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/icon-no.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/icon-unknown-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/icon-unknown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/icon-yes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/inline-delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/selector-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/sorting-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/tooltag-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/img/tooltag-arrowright.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/SelectBox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/SelectFilter2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/actions.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/autocomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/cancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/change_form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/collapse.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/inlines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/inlines.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/jquery.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/popup_response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/prepopulate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/prepopulate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/prepopulate_init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/timeparse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/urlify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/automatic/dicts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/automatic/segment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/css/base.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/css/base.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/css/index.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/css/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/aside.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/autocomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/avatar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/backtop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/badge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/breadcrumb-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/breadcrumb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/button-group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/card.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/carousel-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/cascader-panel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/cascader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/checkbox-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/checkbox-group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/col.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/collapse-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/color-picker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/date-picker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/directives/mousewheel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/directives/repeat-click.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/divider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/drawer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/dropdown-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/dropdown-menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/element-ui.common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/form-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/icon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/infinite-scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/input-number.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/format.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/af-ZA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/cs-CZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/ee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/hy-AM.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/kg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/kz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/mn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/nb-NO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/ru-RU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/sv-SE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/ta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/tk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/tr-TR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/ua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/ug-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/uz-UZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/locale/lang/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/menu-item-group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/menu-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/message-box.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/mixins/emitter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/mixins/focus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/mixins/locale.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/mixins/migrating.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/notification.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/option-group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/option.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/page-header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/progress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/radio-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/radio-group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/radio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/rate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/scrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/spinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/step.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/steps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/submenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/tab-pane.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/table-column.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/tabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/tag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/alert.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/aside.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/avatar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/backtop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/badge.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/breadcrumb-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/breadcrumb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/button-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/calendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/carousel-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/cascader-panel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/cascader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/checkbox-button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/checkbox-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/col.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/collapse-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/collapse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/color-picker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/container.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/date-picker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/display.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/divider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/drawer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/dropdown-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/dropdown-menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/dropdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/form-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/icon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/image.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/infinite-scroll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/infiniteScroll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/input-number.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/input.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/link.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/loading.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/menu-item-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/menu-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/message-box.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/message.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/notification.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/option-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/option.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/page-header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/popover.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/popper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/progress.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/radio-button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/radio-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/radio.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/rate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/row.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/scrollbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/select-dropdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/spinner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/step.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/steps.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/submenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/switch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/tab-pane.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/table-column.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/tag.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/time-picker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/time-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/timeline-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/timeline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/tooltip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/transfer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/tree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/theme-chalk/upload.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/time-picker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/time-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/timeline-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/timeline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/transfer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/transitions/collapse-transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/af-ZA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/cs-CZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/ee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/hy-AM.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/kg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/kz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/mn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/nb-NO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/ru-RU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/sv-SE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/ta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/tk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/tr-TR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/ua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/ug-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/uz-UZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/umd/locale/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/after-leave.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/aria-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/aria-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/clickoutside.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/date-util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/menu/aria-menubar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/menu/aria-menuitem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/menu/aria-submenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/merge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/popup/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/popup/popup-manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/resize-event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/scroll-into-view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/scrollbar-width.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/shared.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/vdom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/elementui/utils/vue-popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/fontawesome-free-5.8.1-web/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/img/bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/js/cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/js/language.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/js/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/js/vue.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/locale/en-us.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/locale/zh-hans.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/particles/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/particles/particles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/admin.lte.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/admin.lte.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/admin.lte.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/aircraft.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/aircraft.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/aircraft.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/ant.design.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/ant.design.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/ant.design.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/base.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/black.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/black.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/black.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/dark.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/dark.green.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/dark.green.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-black-pro.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-black-pro.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-black-pro.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-black.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-black.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-black.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-blue-pro.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-blue-pro.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-blue-pro.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-blue.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-blue.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-green-pro.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-green-pro.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-green-pro.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-green.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-green.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-purple-pro.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-purple-pro.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-purple-pro.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-purple.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-purple.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-red-pro.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-red-pro.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-red-pro.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-red.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/e-red.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/element.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/element.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/element.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/gray.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/gray.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/gray.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/green.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/green.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/highdmin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/highdmin.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/highdmin.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/layui.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/layui.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/light.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/light.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/orange.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/orange.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/purple.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/purple.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/simpleui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/simpleui.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/simpleui.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/x-blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/x-blue.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/x-blue.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/x-green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/x-green.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/x-green.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/x-red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/x-red.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/theme/x-red.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/waves/waves.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/waves/waves.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/admin/simpleui-x/waves/waves.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/static/import_export/action_formats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/app_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/base_site.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/change_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/change_form_object_tools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/change_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/change_list_object_tools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/change_list_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/date_hierarchy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/filter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/invalid_setup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/object_history.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/popup_response.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/prepopulated_fields_js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/related_widget_wrapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/search_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/admin/submit_line.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/registration/logged_out.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/registration/password_change_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/registration/password_change_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/registration/password_reset_complete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/registration/password_reset_confirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/registration/password_reset_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/registration/password_reset_email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templates/registration/password_reset_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diss_Platform/simpleui/templatetags/simpletags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_word/test_word/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_word/test_word/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/office_test_django/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3036">
+              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/office_test_django/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-234">
+              <folding>
+                <element signature="e#642#674#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/office_test_django/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/office_test_django.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="302" />
+    <option name="y" value="5" />
+    <option name="width" value="1610" />
+    <option name="height" value="1025" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="office_test_django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="office_test_django" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="office_test_django" type="Python.DjangoServer" factoryName="Django server">
+      <module name="office_test_django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="office_test_django.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b7c0861-7baa-43ea-81c6-ab43afffc196" name="Default Changelist" comment="" />
+      <created>1586343810505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586343810505</updated>
+      <workItem from="1586343821034" duration="2250000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2250000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="302" y="5" width="1610" height="1025" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24967742" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3295964" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295964" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/office_test_django/urls.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/office_test_django/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <folding>
+            <element signature="e#642#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/office_test_django/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3036">
+          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
