@@ -196,7 +196,8 @@ def getValue(args):
         else:
             print("[请修改显示参数]")
 
-    for y in [20, 13]:
+    print("显现 合计：")
+    for y in [30, 13]:
         p0 = 0
         p1 = 0
         p2 = 0
@@ -249,7 +250,8 @@ def getValue(args):
         dict4 = sorted(xlist2.items(), key=lambda asd: asd[1], reverse=True)
         print(dict4)
 
-    for x in [20, 13]:
+    print("error 合计：")
+    for x in [30, 13]:
         error0 = 0
         error1 = 0
         error2 = 0
@@ -302,7 +304,8 @@ def getValue(args):
         dict4 = sorted(xlist2.items(), key=lambda asd: asd[1], reverse=False)
         print(dict4)
 
-    for x in [20, 13]:
+    print("pass 合计：")
+    for x in [30, 13]:
         rst0 = 0
         rst1 = 0
         rst2 = 0
