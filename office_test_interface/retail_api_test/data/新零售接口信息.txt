@@ -1,0 +1,479 @@
+﻿=================================================================
+=================================================================
+登录接口 http://123.196.123.106/svc-xls/a/login?data=
+====================================
+
+参数名	参数值	参数说明
+username		用户名
+password		密码
+mobileLogin		是否手机登录0否，1是
+method		方法名：/login
+timestamp		时间戳 long型
+sign		签名
+
+====================================
+
+{"username": "cn0",
+"password": "123456", 
+"mobileLogin": "1",
+"method": "/login", 
+"timestamp": "1515138003"}
+
+=================================================================
+=================================================================
+
+=================================================================
+=================================================================
+查询商品接口 http://123.196.123.106/svc-xls/a/basics/product/product/list?data=
+====================================
+
+参数名	参数值	参数说明
+companycode		商户代码（必填）
+ktypeid		仓库id（必填）
+searchKey		查询关键字（选填）；可通过名称、助记码、商品首字母、条形码、串号查询
+categoryId		分类id（选填）
+pageNo		页码（必填，查询所有商品传0）
+pageSize		分页大小（必填，查询所有商品传0）
+method		方法名：/basics/product/product/list
+timestamp		时间戳long型
+sign		签名
+
+
+====================================
+
+{"companycode": "974272", 
+"ktypeid": "2e1ebd0b5be04403848e83297dc84992", 
+"searchKey": "Apple",
+"categoryId": "37374bf0f7c74adb93f3b38dffad3bbb",
+"pageNo": "0", 
+"pageSize": "0", 
+"method": "/basics/product/product/list",
+"timestamp":"1515138003"}
+
+=================================================================
+=================================================================
+
+=================================================================
+=================================================================
+会员注册接口 http://123.196.123.106/svc-xls/a/member/member/save?data= 
+====================================
+
+参数名	参数值	参数说明
+companycode		商户代码（必填）
+userId		当前登录用户id
+attachedProperties	Json	会员属性数组（数组每个值的形式是：属性id值和属性值，以逗号分开，例如：attachedProperties[0] = "80d7,nh"）
+method		方法名：/member/member/save
+timestamp		时间戳long型
+sign		签名
+
+====================================
+
+{"companycode":"974272",
+"userId":"85bb42dd89d34fa78f74c606f78dd501",
+"attachedProperties":"",
+"method":"/member/member/save",
+"timestamp":"1515138003"}
+
+=================================================================
+=================================================================
+
+=================================================================
+=================================================================
+查询会员注册资料接口 http://123.196.123.106/svc-xls/a/member/member/getMemberByMobile?data=
+====================================
+
+参数名	参数值	参数说明
+companycode		商户代码（必填）
+mobile		电话号码（必填）
+method		方法名：member/member/getMemberByMobile
+timestamp		时间戳long型
+sign		签名
+
+====================================
+
+{"companycode":"974272",
+"userId":"85bb42dd89d34fa78f74c606f78dd501",
+"attachedProperties":"{("name","15101018888")}",
+"method":"/member/member/save",
+"timestamp":"1515138003"}
+
+=================================================================
+=================================================================
+
+=================================================================
+=================================================================
+保存订单接口 http://123.196.123.106/svc-xls/a/retail/retailOrder/saveOrde?data=
+====================================
+
+参数名	参数值	参数说明
+companycode		商户代码（必填）
+orderFlag		订单来源（1是pc端门店  2是手机端门店）
+productNum		订单的商品总数（必填）
+billDate		制单时间（Date）（必填）
+productAmount		商品总价（必填）
+member		会员id（非必填Map，参数：Id：会员id）
+remarks		备注（非必填）
+preparedBy		用户信息（Map，参数：id：用户id（必填））
+warehouseInfo		仓库信息（Map，参数：id：仓库id（必填））
+retailOrderInfoList		订单商品信息（List<Map>,参数：
+						id:（必填，传空值）），
+						productId:商品id（必填），
+						productName:商品名称（必填），
+						productAmount:商品总价（必填），
+						productNum:商品数量（必填），
+						productPrice:商品价格（必填），
+						productMemberPrice:商品会员价（非必填），
+						productSellingPrice:商品销售价（必填），
+						imeiManage: 是否管理串1是0否（必填），
+						imei:商品串号（若imeiManage为1则必填；反之不必填，若存在多个串号，则用逗号分隔），
+						barCode:商品条形码（必填），
+						activityFlag:是否是活动标识（必填，0是1否）,
+						batchManage: 是否管理批次（1是,0否）,
+						productUnit: 单位id
+						）
+retailDiscountsInfoList		优惠券/定金（List<Map>，参数：
+						id：（必填，传空值）），
+						discountsId:（若优惠券，则值为优惠券券码；若定金，则值为定金id），
+						discountsName:优惠名称（若有优惠券，则名称为“优惠券”，若有定金，则名称为“定金”），
+						discountsAmount:优惠价格（优惠券的抵扣金额/定金的金额），
+						discountsType:优惠类型（若为优惠券，则为“2”，若为定金，则为“1”））
+tradeAssistant		营业员信息（Map，参数：id：营业员id）
+method		方法名：/retail/retailOrder/saveOrde
+timestamp		时间戳long型
+sign		签名
+
+====================================
+
+{"companycode":"974272",
+"orderFlag":"1",
+"productNum":"1",
+"billDate":"2018-7-5 15:21:04",
+"productAmount":"1212",
+"member":"{"id":"bfeef3699298400baca5a449032e0e4d"}",
+"remarks":"备注",
+"preparedBy":"{"id":"da5e66fbd281495b87b427b02ade4b72"}",
+"warehouseInfo":"{"id":"2e1ebd0b5be04403848e83297dc84992"}",
+"retailOrderInfoList":"{"id":"",
+						"productId":"",
+						"productName":"",
+						"productAmount":"",
+						"productNum":"",
+						"productPrice":"",
+						"productMemberPrice":"",
+						"productSellingPrice":"",
+						"imeiManage":"",
+						"imei":"",
+						"barCode":"",
+						"activityFlag":"",
+						"batchManage":"",
+						"productUnit":""}",
+"retailDiscountsInfoList":"{"id":"",
+							"discountsId":"",
+							"discountsName":"",
+							"discountsAmount":"",
+							"discountsType":""}",
+"tradeAssistant":"{"id":""}",
+"method":"/retail/retailOrder/saveOrde",
+"timestamp":"1515138003"}
+
+=================================================================
+=================================================================
+
+=================================================================
+=================================================================
+订单支付接口 http://123.196.123.106/svc-xls/a/retail/retailOrder/payOrder?data=
+====================================
+
+参数名	参数值	参数说明
+companycode		商户代码（必填）
+vchcode		销售单号（必填）
+proceedsAmount		实收金额
+combinationOfProceeds		组合收款的种类（必填）
+retailPays		收款方式集合（List<Map<String,Object>>；
+					payMoney：每个支付方式支付的金额；
+					shroffMethod：每个支付方式支付的名称(pos支付、支付宝扫码支付)；
+					shroffType：每个支付方式支付的支付类型(6、7);
+					changeMoney：找零（现金支付时）
+					）
+terminalNo		设备终端号（必填）
+traceNo		退款凭证号（必填）
+orderNo		第三方商户订单号（不必填）
+serialNumber		流水号（不必填，同transNo）
+auth_code		付款码  扫枪支付时需要用到的付款码
+method		方法名：/retail/retailOrder/payOrder
+timestamp		时间戳long型
+sign		签名
+
+====================================
+
+{"companycode":"",
+"vchcode":"",
+"proceedsAmount":"",
+"combinationOfProceeds":"",
+"retailPays":"{"payMoney":"",
+				"shroffMethod":"",
+				"shroffType":"",
+				"changeMoney":""}",
+"terminalNo":"",
+"traceNo":"",
+"orderNo":"",
+"serialNumber":"",
+"auth_code":"",
+"method":"/retail/retailOrder/payOrder",
+"timestamp":"1515138003"}
+
+=================================================================
+=================================================================
+
+=================================================================
+=================================================================
+查询会员属性 http://123.196.123.106/svc-xls/a/member/memberProperty/getProperties?data=
+====================================
+
+参数名	参数值	参数说明
+companycode		商户代码
+method		方法名：/member/memberProperty/getProperties
+timestamp		时间戳 long型
+sign		签名
+
+====================================
+
+{"companycode":"974272",
+"mobile":"15101010101",
+"method":"member/member/getMemberByMobile",
+"timestamp":"1515138003"}
+
+=================================================================
+=================================================================
+
+=================================================================
+=================================================================
+查询订单详情 http://123.196.123.106/svc-xls/a/retail/retailOrder/findOrderInfo?data=
+====================================
+
+参数名	参数值	参数说明
+companycode		商户代码（必填）
+vchcode		销售单号（必填）
+method		方法名：/retail/retailOrder/findOrderInfo
+timestamp		时间戳 long型
+sign		签名
+
+====================================
+
+{"companycode":"974272",
+"vchcode":"SO974272-201806060003",
+"method":"/retail/retailOrder/findOrderInfo",
+"timestamp":"1515138003"}
+=================================================================
+=================================================================
+
+=================================================================
+=================================================================
+查询订单列表 http://123.196.123.106/svc-xls/a/retail/retailOrder/list?data=
+====================================
+
+参数名	参数值	参数说明
+companycode		商户代码（必填）
+userId		用户id（必填）
+status		订单状态
+pageNo		页码（必填）
+pageSize		分页大小（必填）
+billType		单据类型
+vchcode		单据号
+beginBillDate		制单时间（开始） yyyy-MM-dd HH:mm:ss
+endBillDate		制单时间（结束）yyyy-MM-dd HH:mm:ss
+method		方法名：/retail/retailOrder/list
+timestamp		时间戳long型
+sign		签名
+
+订单用到的状态：
+12：已取消
+16：待支付
+18：支付完成
+19：已退货
+20：已评论
+22：支付失败
+订单标识：
+1：pc端门店  
+2：pos下单 
+3：收银机下单 
+4：rfid下单
+
+====================================
+
+{"companycode":"974272",
+"userId":"85bb42dd89d34fa78f74c606f78dd501",
+"status":"18",
+"pageNo":"1",
+"pageSize":"1",
+"billType":"1",
+"vchcode":"SO974272-201806060003",
+"beginBillDate":"2018-06-06 14:30:46",
+"endBillDate":"2018-06-06 14:30:49",
+"method":"/retail/retailOrder/list",
+"timestamp":"1515138003"}
+
+=================================================================
+=================================================================
+
+=================================================================
+=================================================================
+查询商品批次号接口 http://123.196.123.106/svc-xls/a/basics/product/product/selectBatchNo?data=
+====================================
+
+参数名	参数值	参数说明
+companycode		商户代码（必填）
+ktypeid		仓库id（必填）
+productid		商品id
+method		方法名：/basics/product/product/selectBatchNo
+timestamp		时间戳long型
+sign		签名
+
+====================================
+
+{"companycode":"974272",
+"ktypeid":"2e1ebd0b5be04403848e83297dc84992",
+"productid":"da5e66fbd281495b87b427b02ade4b72",
+"method":"/basics/product/product/selectBatchNo",
+"timestamp":"1515138003"}
+
+=================================================================
+=================================================================
+
+=================================================================
+=================================================================
+订单退货接口 http://123.196.123.106/svc-xls/a/retail/retailOrder/salesReturn?data=
+====================================
+
+参数名	参数值	参数说明
+companycode		商户代码（必填）
+userid		用户id（必填）
+vchcode		单据号（必填）
+returnAmount		退款金额 （必填）
+method		方法名：/retail/retailOrder/salesReturn
+timestamp		时间戳long型
+sign		签名
+
+====================================
+
+{"companycode":"974272",
+"userid":"85bb42dd89d34fa78f74c606f78dd501",
+"vchcode":"PT974272-201804250001",
+"returnAmount":"21212",
+"method":"/retail/retailOrder/salesReturn",
+"timestamp":"1515138003"}
+
+=================================================================
+=================================================================
+
+=================================================================
+=================================================================
+查询app更新信息接口 http://123.196.123.106/svc-xls/a/getAppUpdateInfo?data=
+====================================
+
+参数名	参数值	参数说明
+appName     参数  checkstand（收银台）  或 posApp（pos）
+version		是否手机登录0否，1是
+method		方法名：/getAppUpdateInfo
+timestamp		时间戳 long型
+sign		签名
+
+====================================
+
+{"appName":"posApp",
+"version":"1",
+"method":"/getAppUpdateInfo",
+"timestamp":"1515138003"}
+
+=================================================================
+=================================================================
+
+=================================================================
+=================================================================
+查询订单状态接口 http://123.196.123.106/svc-xls/a/retail/retailOrder/selectOrderStatus?data=
+====================================
+
+参数名	参数值	参数说明
+companycode		商户代码（必填）
+vchcode		销售单号（必填）
+method		方法名：/retail/retailOrder/selectOrderStatus
+timestamp		时间戳long型
+sign		签名
+
+====================================
+
+{"companycode":"974272",
+"vchcode":"SO974272-201806060003",
+"method":"/retail/retailOrder/selectOrderStatus",
+"timestamp":"1515138003"}
+
+=================================================================
+=================================================================
+
+=================================================================
+=================================================================
+查询所有分类接口 http://123.196.123.106/svc-xls/a/basics/product/product/findAllCategory?data=
+====================================
+
+参数名	参数值	参数说明
+companycode		商户代码（必填）
+ktypeid		仓库id（必填）
+method		方法名：/basics/product/product/findAllCategory
+timestamp		时间戳long型
+sign		签名
+
+====================================
+
+{"companycode":"974272",
+"ktypeid":"2e1ebd0b5be04403848e83297dc84992",
+"method":"/basics/product/product/findAllCategory",
+"timestamp":"1515138003"}
+
+=================================================================
+=================================================================
+
+=================================================================
+=================================================================
+营业员接口 http://123.196.123.106/svc-xls/a/sys/user/getUsers?data= 
+====================================
+
+参数名	参数值	参数说明
+companycode		商户代码（必填）
+userId		当前登录用户id（必填）
+method		方法名：/sys/user/getUsers
+timestamp		时间戳long型
+sign		签名
+
+====================================
+
+{"companycode":"974272",
+"userId":"85bb42dd89d34fa78f74c606f78dd501",
+"method":"/sys/user/getUsers",
+"timestamp":"1515138003"}
+
+=================================================================
+=================================================================
+
+=================================================================
+=================================================================
+结账总计接口 http://123.196.123.106/svc-xls/a/retail/retailOrder/findHjAmount?data=
+====================================
+
+参数名	参数值	参数说明
+companycode		商户代码（必填）
+userId		当前登录用户id（必填）
+officeId		当前登录用户的机构id（必填）
+method		方法名：/retail/retailOrder/findHjAmount
+timestamp		时间戳long型
+sign		签名
+
+====================================
+
+{"companycode":"974272",
+"userId":"85bb42dd89d34fa78f74c606f78dd501",
+"officeId":"3af4c5e01b744d5a8e2a73870452a2e0",
+"method":"/retail/retailOrder/findHjAmount",
+"timestamp":"1515138003"}
+
+=================================================================
+=================================================================

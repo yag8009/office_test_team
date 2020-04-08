@@ -1,0 +1,29 @@
+-
+    titlle: 1-登录-荀彧
+    method: POST
+    url: http://123.196.123.106/web-xls/a/login
+    data:
+      username:
+          xv01111
+      password:
+          193782
+    isdata:
+      - 荀彧
+      - 退出
+
+-
+    titlle: 2-仓库分类-查询
+    method: POST
+    url: http://123.196.123.106/web-xls/a/ckbase/warehouseSort/
+    data:
+      pageNo:
+      pageSize:
+      sortId:
+      name:
+        国
+      beginCreateDate:
+      endCreateDate:
+    isdata:
+      - 蜀国
+      - 魏国
+

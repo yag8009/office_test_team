@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>接口测试报告</title>
+    <meta name="generator" content="HTMLTestRunner 0.9.1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/echarts/3.8.5/echarts.common.min.js"></script>
+    <!-- <script type="text/javascript" src="js/echarts.common.min.js"></script> -->
+    
+    
+<style type="text/css" media="screen">
+    body        { font-family: Microsoft YaHei,Consolas,arial,sans-serif; font-size: 80%; }
+    table       { font-size: 100%; }
+    pre         { white-space: pre-wrap;word-wrap: break-word; }
+
+    /* -- heading ---------------------------------------------------------------------- */
+    h1 {
+        font-size: 16pt;
+        color: gray;
+    }
+    .heading {
+        margin-top: 0ex;
+        margin-bottom: 1ex;
+    }
+
+    .heading .attribute {
+        margin-top: 1ex;
+        margin-bottom: 0;
+    }
+
+    .heading .description {
+        margin-top: 2ex;
+        margin-bottom: 3ex;
+    }
+
+    /* -- css div popup ------------------------------------------------------------------------ */
+    a.popup_link {
+    }
+
+    a.popup_link:hover {
+        color: red;
+    }
+
+    .popup_window {
+        display: none;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        /*border: solid #627173 1px; */
+        padding: 10px;
+        /*background-color: #E6E6D6; */
+        font-family: "Lucida Console", "Courier New", Courier, monospace;
+        text-align: left;
+        font-size: 8pt;
+        /* width: 500px;*/
+    }
+
+    }
+    /* -- report ------------------------------------------------------------------------ */
+    #show_detail_line {
+        margin-top: 3ex;
+        margin-bottom: 1ex;
+    }
+    #result_table {
+        width: 99%;
+    }
+    #header_row {
+        font-weight: bold;
+        color: #303641;
+        background-color: #ebebeb;
+    }
+    #total_row  { font-weight: bold; }
+    .passClass  { background-color: #bdedbc; }
+    .failClass  { background-color: #ffefa4; }
+    .errorClass { background-color: #ffc9c9; }
+    .passCase   { color: #6c6; }
+    .failCase   { color: #FF6600; font-weight: bold; }
+    .errorCase  { color: #c00; font-weight: bold; }
+    .hiddenRow  { display: none; }
+    .testcase   { margin-left: 2em; }
+
+
+    /* -- ending ---------------------------------------------------------------------- */
+    #ending {
+    }
+
+    #div_base {
+                position:absolute;
+                top:0%;
+                left:5%;
+                right:5%;
+                width: auto;
+                height: auto;
+                margin: -15px 0 0 0;
+    }
+</style>
+
+    
+</head>
+<body>
+    <script language="javascript" type="text/javascript"><!--
+    output_list = Array();
+
+    /* level - 0:Summary; 1:Failed; 2:All */
+    function showCase(level) {
+        trs = document.getElementsByTagName("tr");
+        for (var i = 0; i < trs.length; i++) {
+            tr = trs[i];
+            id = tr.id;
+            if (id.substr(0,2) == 'ft') {
+                if (level < 1) {
+                    tr.className = 'hiddenRow';
+                }
+                else {
+                    tr.className = '';
+                }
+            }
+            if (id.substr(0,2) == 'pt') {
+                if (level > 1) {
+                    tr.className = '';
+                }
+                else {
+                    tr.className = 'hiddenRow';
+                }
+            }
+        }
+    }
+
+
+    function showClassDetail(cid, count) {
+        var id_list = Array(count);
+        var toHide = 1;
+        for (var i = 0; i < count; i++) {
+            tid0 = 't' + cid.substr(1) + '.' + (i+1);
+            tid = 'f' + tid0;
+            tr = document.getElementById(tid);
+            if (!tr) {
+                tid = 'p' + tid0;
+                tr = document.getElementById(tid);
+            }
+            id_list[i] = tid;
+            if (tr.className) {
+                toHide = 0;
+            }
+        }
+        for (var i = 0; i < count; i++) {
+            tid = id_list[i];
+            if (toHide) {
+                document.getElementById('div_'+tid).style.display = 'none'
+                document.getElementById(tid).className = 'hiddenRow';
+            }
+            else {
+                document.getElementById(tid).className = '';
+            }
+        }
+    }
+
+
+    function showTestDetail(div_id){
+        var details_div = document.getElementById(div_id)
+        var displayState = details_div.style.display
+        // alert(displayState)
+        if (displayState != 'block' ) {
+            displayState = 'block'
+            details_div.style.display = 'block'
+        }
+        else {
+            details_div.style.display = 'none'
+        }
+    }
+
+
+    function html_escape(s) {
+        s = s.replace(/&/g,'&amp;');
+        s = s.replace(/</g,'&lt;');
+        s = s.replace(/>/g,'&gt;');
+        return s;
+    }
+
+    /* obsoleted by detail in <div>
+    function showOutput(id, name) {
+        var w = window.open("", //url
+                        name,
+                        "resizable,scrollbars,status,width=800,height=450");
+        d = w.document;
+        d.write("<pre>");
+        d.write(html_escape(output_list[id]));
+        d.write("\n");
+        d.write("<a href='javascript:window.close()'>close</a>\n");
+        d.write("</pre>\n");
+        d.close();
+    }
+    */
+    --></script>
+
+    <div id="div_base">
+        
+    <div class='page-header'>
+        <h1>接口测试报告</h1>
+    <p class='attribute'><strong>开始时间:</strong> 2019-12-26 15:00:24</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:31.068777</p>
+<p class='attribute'><strong>状态:</strong> 通过 7 失败 11</p>
+
+    </div>
+    <div style="float: left;width:50%;"><p class='description'>接口数据执行情况：</p></div>
+    <div id="chart" style="width:50%;height:400px;float:left;"></div>
+
+        
+    <div class="btn-group btn-group-sm">
+        <button class="btn btn-default" onclick='javascript:showCase(0)'>总结</button>
+        <button class="btn btn-default" onclick='javascript:showCase(1)'>失败</button>
+        <button class="btn btn-default" onclick='javascript:showCase(2)'>全部</button>
+    </div>
+    <p></p>
+    <table id='result_table' class="table table-bordered">
+        <colgroup>
+            <col align='left' />
+            <col align='right' />
+            <col align='right' />
+            <col align='right' />
+            <col align='right' />
+            <col align='right' />
+        </colgroup>
+        <tr id='header_row'>
+            <td>测试套件/测试用例</td>
+            <td>总数</td>
+            <td>通过</td>
+            <td>失败</td>
+            <td>错误</td>
+            <td>查看</td>
+        </tr>
+        
+    <tr class='failClass'>
+        <td>testcases.test_hede_case.ActionHeDeTest</td>
+        <td>18</td>
+        <td>7</td>
+        <td>11</td>
+        <td>0</td>
+        <td><a href="javascript:showClassDetail('c1',18)">详情</a></td>
+    </tr>
+
+<tr id='ft1.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_hede_全填数据</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        失败</a>
+
+    <div id='div_ft1.1' class="popup_window">
+        <pre>ft1.1: Traceback (most recent call last):
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 34, in func
+    self.action_login(case_id, case_name, url, data, assertion)
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 29, in action_login
+    self.assertEqual(action_page.json()["status"], assertion, action_page.text)
+AssertionError: 'error' != 'success'
+- error
++ success
+ : {"status":"error","errorCode":"policy_save_repeat","des":"重复投保;","data":{"model":"mate9","phone":"17066668888","channelType":"227","store":"旗舰店","status":"1","orderType":"2","imei":"123456789012399","idcard":"","endDate":"2020-12-09","cardType":"碎屏无忧-安卓","city":"北京","price":"3999","policyId":"0b98e090ff9b4edda0c06af022894622","color":"白","name":"张三","saleman":"售货员A","brand":"华为","createDate":"2019-12-10 18:07:40","effectiveDate":"2019-12-10","servicePrice":"89"}}
+</pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.2' class='none'>
+    <td class='failCase'><div class='testcase'>test_hede_全填数据1</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        失败</a>
+
+    <div id='div_ft1.2' class="popup_window">
+        <pre>ft1.2: Traceback (most recent call last):
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 34, in func
+    self.action_login(case_id, case_name, url, data, assertion)
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 29, in action_login
+    self.assertEqual(action_page.json()["status"], assertion, action_page.text)
+AssertionError: 'error' != 'success'
+- error
++ success
+ : {"status":"error","errorCode":"policy_save_repeat","des":"重复投保;","data":{"model":"X6D","phone":"17081350021","channelType":"353","store":"旗舰店","status":"1","orderType":"4","imei":"859997179642388","idcard":"108271199711124923","endDate":"2020-12-10","cardType":"测试碎屏无忧-B","city":"北京","price":"8235","policyId":"f0d7242eefdd4ede9e9de8a783aeb6b6","color":"白","name":"许地狗介","saleman":"售货员A","brand":"OPPO","createDate":"2019-12-11 09:56:48","effectiveDate":"2019-12-11","servicePrice":"1"}}
+</pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.3' class='none'>
+    <td class='failCase'><div class='testcase'>test_hede_必填数据</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
+        失败</a>
+
+    <div id='div_ft1.3' class="popup_window">
+        <pre>ft1.3: Traceback (most recent call last):
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 34, in func
+    self.action_login(case_id, case_name, url, data, assertion)
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 29, in action_login
+    self.assertEqual(action_page.json()["status"], assertion, action_page.text)
+AssertionError: 'error' != 'success'
+- error
++ success
+ : {"status":"error","errorCode":"policy_save_repeat","des":"重复投保;","data":{"model":"mate9","phone":"17066668888","channelType":"227","store":"旗舰店","status":"1","orderType":"2","imei":"123456789012399","idcard":"","endDate":"2020-12-09","cardType":"碎屏无忧-安卓","city":"北京","price":"3999","policyId":"0b98e090ff9b4edda0c06af022894622","color":"白","name":"张三","saleman":"售货员A","brand":"华为","createDate":"2019-12-10 18:07:40","effectiveDate":"2019-12-10","servicePrice":"89"}}
+</pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_hede_月报1</div></td>
+    <td colspan='5' align='center'>通过</td>
+</tr>
+
+<tr id='pt1.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_hede_月报2</div></td>
+    <td colspan='5' align='center'>通过</td>
+</tr>
+
+<tr id='pt1.6' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_hede_月报3</div></td>
+    <td colspan='5' align='center'>通过</td>
+</tr>
+
+<tr id='pt1.7' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_hede_月报4</div></td>
+    <td colspan='5' align='center'>通过</td>
+</tr>
+
+<tr id='pt1.8' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_hede_月报5</div></td>
+    <td colspan='5' align='center'>通过</td>
+</tr>
+
+<tr id='pt1.9' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_hede_月报6</div></td>
+    <td colspan='5' align='center'>通过</td>
+</tr>
+
+<tr id='pt1.10' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_hede_月报7</div></td>
+    <td colspan='5' align='center'>通过</td>
+</tr>
+
+<tr id='ft1.11' class='none'>
+    <td class='failCase'><div class='testcase'>test_hede_缺串号</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.11')" >
+        失败</a>
+
+    <div id='div_ft1.11' class="popup_window">
+        <pre>ft1.11: Traceback (most recent call last):
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 34, in func
+    self.action_login(case_id, case_name, url, data, assertion)
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 29, in action_login
+    self.assertEqual(action_page.json()["status"], assertion, action_page.text)
+AssertionError: 'error' != 'success'
+- error
++ success
+ : {"status":"error","errorCode":"param_validate_error","des":"数据校验失败：imei: IMEI不能为空; "}
+</pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.12' class='none'>
+    <td class='failCase'><div class='testcase'>test_hede_缺产品ID</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.12')" >
+        失败</a>
+
+    <div id='div_ft1.12' class="popup_window">
+        <pre>ft1.12: Traceback (most recent call last):
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 34, in func
+    self.action_login(case_id, case_name, url, data, assertion)
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 29, in action_login
+    self.assertEqual(action_page.json()["status"], assertion, action_page.text)
+AssertionError: 'error' != 'success'
+- error
++ success
+ : {"status":"error","errorCode":"param_validate_error","des":"数据校验失败：channelType: 产品不能为空; "}
+</pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.13' class='none'>
+    <td class='failCase'><div class='testcase'>test_hede_缺价格</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.13')" >
+        失败</a>
+
+    <div id='div_ft1.13' class="popup_window">
+        <pre>ft1.13: Traceback (most recent call last):
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 34, in func
+    self.action_login(case_id, case_name, url, data, assertion)
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 29, in action_login
+    self.assertEqual(action_page.json()["status"], assertion, action_page.text)
+AssertionError: 'error' != 'success'
+- error
++ success
+ : {"status":"error","errorCode":"param_validate_error","des":"数据校验失败：price: 手机价格不能为空; "}
+</pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.14' class='none'>
+    <td class='failCase'><div class='testcase'>test_hede_缺名字</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.14')" >
+        失败</a>
+
+    <div id='div_ft1.14' class="popup_window">
+        <pre>ft1.14: Traceback (most recent call last):
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 34, in func
+    self.action_login(case_id, case_name, url, data, assertion)
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 29, in action_login
+    self.assertEqual(action_page.json()["status"], assertion, action_page.text)
+AssertionError: 'error' != 'success'
+- error
++ success
+ : {"status":"error","errorCode":"param_validate_error","des":"数据校验失败：name: 顾客姓名不能为空; "}
+</pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.15' class='none'>
+    <td class='failCase'><div class='testcase'>test_hede_缺品牌</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.15')" >
+        失败</a>
+
+    <div id='div_ft1.15' class="popup_window">
+        <pre>ft1.15: Traceback (most recent call last):
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 34, in func
+    self.action_login(case_id, case_name, url, data, assertion)
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 29, in action_login
+    self.assertEqual(action_page.json()["status"], assertion, action_page.text)
+AssertionError: 'error' != 'success'
+- error
++ success
+ : {"status":"error","errorCode":"param_validate_error","des":"数据校验失败：brand: 品牌不能为空; "}
+</pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.16' class='none'>
+    <td class='failCase'><div class='testcase'>test_hede_缺型号</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.16')" >
+        失败</a>
+
+    <div id='div_ft1.16' class="popup_window">
+        <pre>ft1.16: Traceback (most recent call last):
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 34, in func
+    self.action_login(case_id, case_name, url, data, assertion)
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 29, in action_login
+    self.assertEqual(action_page.json()["status"], assertion, action_page.text)
+AssertionError: 'error' != 'success'
+- error
++ success
+ : {"status":"error","errorCode":"param_validate_error","des":"数据校验失败：model: 型号不能为空; "}
+</pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.17' class='none'>
+    <td class='failCase'><div class='testcase'>test_hede_缺手机</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.17')" >
+        失败</a>
+
+    <div id='div_ft1.17' class="popup_window">
+        <pre>ft1.17: Traceback (most recent call last):
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 34, in func
+    self.action_login(case_id, case_name, url, data, assertion)
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 29, in action_login
+    self.assertEqual(action_page.json()["status"], assertion, action_page.text)
+AssertionError: 'error' != 'success'
+- error
++ success
+ : {"status":"error","errorCode":"param_validate_error","des":"数据校验失败：phone: 手机不能为空; "}
+</pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.18' class='none'>
+    <td class='failCase'><div class='testcase'>test_hede_缺身份证</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.18')" >
+        失败</a>
+
+    <div id='div_ft1.18' class="popup_window">
+        <pre>ft1.18: Traceback (most recent call last):
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 34, in func
+    self.action_login(case_id, case_name, url, data, assertion)
+  File "E:\BaiduYun\com\pycom\retail_api_test\testcases\test_hede_case.py", line 29, in action_login
+    self.assertEqual(action_page.json()["status"], assertion, action_page.text)
+AssertionError: 'error' != 'success'
+- error
++ success
+ : {"status":"error","errorCode":"policy_save_repeat","des":"重复投保;","data":{"model":"X6D","phone":"15852824331","channelType":"115","store":"","status":"1","orderType":"2","imei":"Enwm1Fliy1bYMRp","idcard":"","endDate":"2020-12-10","cardType":"乐享屏安-苹果","city":"","price":"2122","policyId":"7f3ceda48dfa4c378396be1833240698","color":"","name":"严持怕酒","saleman":"","brand":"OPPO","createDate":"2019-12-11 09:56:49","effectiveDate":"2019-12-11","servicePrice":"0"}}
+</pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+        <tr id='total_row'>
+            <td>总计</td>
+            <td>18</td>
+            <td>7</td>
+            <td>11</td>
+            <td>0</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+
+        <div id='ending'>&nbsp;</div>
+        
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('chart'));
+
+        // 指定图表的配置项和数据
+        var option = {
+            title : {
+                text: '测试执行情况',
+                x:'center'
+            },
+            tooltip : {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            color: ['#95b75d', 'grey', '#b64645'],
+            legend: {
+                orient: 'vertical',
+                left: 'left',
+                data: ['通过','失败','错误']
+            },
+            series : [
+                {
+                    name: '测试执行情况',
+                    type: 'pie',
+                    radius : '60%',
+                    center: ['50%', '60%'],
+                    data:[
+                        {value:7, name:'通过'},
+                        {value:11, name:'失败'},
+                        {value:0, name:'错误'}
+                    ],
+                    itemStyle: {
+                        emphasis: {
+                            shadowBlur: 10,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        }
+                    }
+                }
+            ]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+    
+    </div>
+</body>
+</html>

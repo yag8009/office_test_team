@@ -1,0 +1,144 @@
+2019-12-26 15:00:24,906 -DXT-INFO-test_hede_case: ====== 【case_0001:全填数据】 ====== 
+2019-12-26 15:00:24,906 -DXT-INFO-hede_interface_API:传入数据: {'brand': '华为', 'model': 'mate9', 'color': '白', 'imei': '123456789012399', 'price': '3999', 'phone': '17066668888', 'name': '张三', 'idcard': '123456123345651234', 'city': '北京', 'store': '旗舰店', 'saleman': '售货员A', 'channelType': '227', 'imageUrl': 'https://www.baidu.com/', 'videoUrl': 'https://www.baidu.com/', 'timestamp': 1577343624906}
+2019-12-26 15:00:24,906 -DXT-INFO-hede_interface_API:加密前数据: brand=华为&channelType=227&city=北京&color=白&idcard=123456123345651234&imageUrl=https://www.baidu.com/&imei=123456789012399&model=mate9&name=张三&phone=17066668888&price=3999&saleman=售货员A&store=旗舰店&timestamp=1577343624906&videoUrl=https://www.baidu.com/&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:24,907 -DXT-INFO-hede_interface_API:签名数据: 0F96DE301CA84AD80D5F9FCBCBDFAC78
+2019-12-26 15:00:25,034 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:25,034 -DXT-INFO-hede_interface_API:请求数据: {"brand": "\u534e\u4e3a", "model": "mate9", "color": "\u767d", "imei": "123456789012399", "price": "3999", "phone": "17066668888", "name": "\u5f20\u4e09", "idcard": "123456123345651234", "city": "\u5317\u4eac", "store": "\u65d7\u8230\u5e97", "saleman": "\u552e\u8d27\u5458A", "channelType": "227", "imageUrl": "https://www.baidu.com/", "videoUrl": "https://www.baidu.com/", "timestamp": 1577343624906, "sign": "0F96DE301CA84AD80D5F9FCBCBDFAC78"}
+2019-12-26 15:00:25,034 -DXT-INFO-test_hede_case:返回数据:  {"status":"error","errorCode":"policy_save_repeat","des":"重复投保;","data":{"model":"mate9","phone":"17066668888","channelType":"227","store":"旗舰店","status":"1","orderType":"2","imei":"123456789012399","idcard":"","endDate":"2020-12-09","cardType":"碎屏无忧-安卓","city":"北京","price":"3999","policyId":"0b98e090ff9b4edda0c06af022894622","color":"白","name":"张三","saleman":"售货员A","brand":"华为","createDate":"2019-12-10 18:07:40","effectiveDate":"2019-12-10","servicePrice":"89"}}
+2019-12-26 15:00:25,035 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
+2019-12-26 15:00:25,036 -DXT-INFO-test_hede_case: ====== 【case_0003:全填数据1】 ====== 
+2019-12-26 15:00:25,036 -DXT-INFO-hede_interface_API:传入数据: {'brand': 'OPPO', 'model': 'X6D', 'color': '白', 'imei': '859997179642388', 'price': '8235', 'phone': '17081350021', 'name': '许地狗介', 'idcard': '108271199711124923', 'city': '北京', 'store': '旗舰店', 'saleman': '售货员A', 'channelType': '353', 'imageUrl': 'https://www.baidu.com/', 'videoUrl': 'https://www.baidu.com/', 'timestamp': 1577343625036}
+2019-12-26 15:00:25,036 -DXT-INFO-hede_interface_API:加密前数据: brand=OPPO&channelType=353&city=北京&color=白&idcard=108271199711124923&imageUrl=https://www.baidu.com/&imei=859997179642388&model=X6D&name=许地狗介&phone=17081350021&price=8235&saleman=售货员A&store=旗舰店&timestamp=1577343625036&videoUrl=https://www.baidu.com/&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:25,037 -DXT-INFO-hede_interface_API:签名数据: F43FF45E10A39DE275E73AEE0601155B
+2019-12-26 15:00:26,367 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:26,367 -DXT-INFO-hede_interface_API:请求数据: {"brand": "OPPO", "model": "X6D", "color": "\u767d", "imei": "859997179642388", "price": "8235", "phone": "17081350021", "name": "\u8bb8\u5730\u72d7\u4ecb", "idcard": "108271199711124923", "city": "\u5317\u4eac", "store": "\u65d7\u8230\u5e97", "saleman": "\u552e\u8d27\u5458A", "channelType": "353", "imageUrl": "https://www.baidu.com/", "videoUrl": "https://www.baidu.com/", "timestamp": 1577343625036, "sign": "F43FF45E10A39DE275E73AEE0601155B"}
+2019-12-26 15:00:26,367 -DXT-INFO-test_hede_case:返回数据:  {"status":"error","errorCode":"policy_save_repeat","des":"重复投保;","data":{"model":"X6D","phone":"17081350021","channelType":"353","store":"旗舰店","status":"1","orderType":"4","imei":"859997179642388","idcard":"108271199711124923","endDate":"2020-12-10","cardType":"测试碎屏无忧-B","city":"北京","price":"8235","policyId":"f0d7242eefdd4ede9e9de8a783aeb6b6","color":"白","name":"许地狗介","saleman":"售货员A","brand":"OPPO","createDate":"2019-12-11 09:56:48","effectiveDate":"2019-12-11","servicePrice":"1"}}
+2019-12-26 15:00:26,368 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
+2019-12-26 15:00:26,368 -DXT-INFO-test_hede_case: ====== 【case_0002:必填数据】 ====== 
+2019-12-26 15:00:26,369 -DXT-INFO-hede_interface_API:传入数据: {'brand': '华为', 'model': 'mate9', 'imei': '123456789012399', 'price': '3999', 'phone': '17066668888', 'name': '张三', 'idcard': '123456123345651234', 'channelType': '227', 'timestamp': 1577343626369}
+2019-12-26 15:00:26,369 -DXT-INFO-hede_interface_API:加密前数据: brand=华为&channelType=227&idcard=123456123345651234&imei=123456789012399&model=mate9&name=张三&phone=17066668888&price=3999&timestamp=1577343626369&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:26,369 -DXT-INFO-hede_interface_API:签名数据: 9B8435BACBA14EF85F6C4D118593289E
+2019-12-26 15:00:26,520 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:26,520 -DXT-INFO-hede_interface_API:请求数据: {"brand": "\u534e\u4e3a", "model": "mate9", "imei": "123456789012399", "price": "3999", "phone": "17066668888", "name": "\u5f20\u4e09", "idcard": "123456123345651234", "channelType": "227", "timestamp": 1577343626369, "sign": "9B8435BACBA14EF85F6C4D118593289E"}
+2019-12-26 15:00:26,520 -DXT-INFO-test_hede_case:返回数据:  {"status":"error","errorCode":"policy_save_repeat","des":"重复投保;","data":{"model":"mate9","phone":"17066668888","channelType":"227","store":"旗舰店","status":"1","orderType":"2","imei":"123456789012399","idcard":"","endDate":"2020-12-09","cardType":"碎屏无忧-安卓","city":"北京","price":"3999","policyId":"0b98e090ff9b4edda0c06af022894622","color":"白","name":"张三","saleman":"售货员A","brand":"华为","createDate":"2019-12-10 18:07:40","effectiveDate":"2019-12-10","servicePrice":"89"}}
+2019-12-26 15:00:26,520 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
+2019-12-26 15:00:26,521 -DXT-INFO-test_hede_case: ====== 【case_0012:月报1】 ====== 
+2019-12-26 15:00:26,521 -DXT-INFO-hede_interface_API:传入数据: {'brand': 'OPPO', 'model': 'X6D', 'imei': '818218436420683', 'price': '2122', 'phone': '13544608692', 'name': '云古品', 'idcard': '165611199611092753', 'channelType': '1447', 'timestamp': 1577343626521}
+2019-12-26 15:00:26,521 -DXT-INFO-hede_interface_API:加密前数据: brand=OPPO&channelType=1447&idcard=165611199611092753&imei=818218436420683&model=X6D&name=云古品&phone=13544608692&price=2122&timestamp=1577343626521&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:26,522 -DXT-INFO-hede_interface_API:签名数据: E068C182E203F40E339016C1696D8173
+2019-12-26 15:00:27,950 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:27,950 -DXT-INFO-hede_interface_API:请求数据: {"brand": "OPPO", "model": "X6D", "imei": "818218436420683", "price": "2122", "phone": "13544608692", "name": "\u4e91\u53e4\u54c1", "idcard": "165611199611092753", "channelType": "1447", "timestamp": 1577343626521, "sign": "E068C182E203F40E339016C1696D8173"}
+2019-12-26 15:00:27,950 -DXT-INFO-test_hede_case:返回数据:  {"status":"success","errorCode":"success","des":"提交成功","data":{"policyId":"c5cc11de36d1471e85cd020dfdf821c0","imei":"818218436420683","endDate":"2020-01-26","effectiveDate":"2019-12-27","servicePrice":"0"}}
+2019-12-26 15:00:27,950 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
+2019-12-26 15:00:27,951 -DXT-INFO-test_hede_case: ====== 【case_0013:月报2】 ====== 
+2019-12-26 15:00:27,951 -DXT-INFO-hede_interface_API:传入数据: {'brand': 'OPPO', 'model': 'X6D', 'imei': 'wyygKfxZeWZULNV', 'price': '2122', 'phone': '15537429639', 'name': '柏成比', 'idcard': '75513619510108894X', 'channelType': '1448', 'timestamp': 1577343627951}
+2019-12-26 15:00:27,952 -DXT-INFO-hede_interface_API:加密前数据: brand=OPPO&channelType=1448&idcard=75513619510108894X&imei=wyygKfxZeWZULNV&model=X6D&name=柏成比&phone=15537429639&price=2122&timestamp=1577343627951&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:27,952 -DXT-INFO-hede_interface_API:签名数据: 44FB6B65C27700BD64F2F349068A4882
+2019-12-26 15:00:28,226 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:28,227 -DXT-INFO-hede_interface_API:请求数据: {"brand": "OPPO", "model": "X6D", "imei": "wyygKfxZeWZULNV", "price": "2122", "phone": "15537429639", "name": "\u67cf\u6210\u6bd4", "idcard": "75513619510108894X", "channelType": "1448", "timestamp": 1577343627951, "sign": "44FB6B65C27700BD64F2F349068A4882"}
+2019-12-26 15:00:28,227 -DXT-INFO-test_hede_case:返回数据:  {"status":"success","errorCode":"success","des":"提交成功","data":{"policyId":"08e9c22a1f9745dda9b9866eb3d2b4fd","imei":"wyygKfxZeWZULNV","endDate":"2020-01-26","effectiveDate":"2019-12-27","servicePrice":"0"}}
+2019-12-26 15:00:28,227 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
+2019-12-26 15:00:28,228 -DXT-INFO-test_hede_case: ====== 【case_0014:月报3】 ====== 
+2019-12-26 15:00:28,228 -DXT-INFO-hede_interface_API:传入数据: {'brand': 'OPPO', 'model': 'X6D', 'imei': '387252969978641', 'price': '2122', 'phone': '18389483176', 'name': '吕足', 'idcard': '78135719660326216x', 'channelType': '1449', 'timestamp': 1577343628228}
+2019-12-26 15:00:28,229 -DXT-INFO-hede_interface_API:加密前数据: brand=OPPO&channelType=1449&idcard=78135719660326216x&imei=387252969978641&model=X6D&name=吕足&phone=18389483176&price=2122&timestamp=1577343628228&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:28,229 -DXT-INFO-hede_interface_API:签名数据: 4A63C51E384E841F1047DA1DD2AD3FE8
+2019-12-26 15:00:28,426 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:28,427 -DXT-INFO-hede_interface_API:请求数据: {"brand": "OPPO", "model": "X6D", "imei": "387252969978641", "price": "2122", "phone": "18389483176", "name": "\u5415\u8db3", "idcard": "78135719660326216x", "channelType": "1449", "timestamp": 1577343628228, "sign": "4A63C51E384E841F1047DA1DD2AD3FE8"}
+2019-12-26 15:00:28,427 -DXT-INFO-test_hede_case:返回数据:  {"status":"success","errorCode":"success","des":"提交成功","data":{"policyId":"3061a5bade5f4512a0faebe9808c9b4d","imei":"387252969978641","endDate":"2020-01-26","effectiveDate":"2019-12-27","servicePrice":"0"}}
+2019-12-26 15:00:28,427 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
+2019-12-26 15:00:28,428 -DXT-INFO-test_hede_case: ====== 【case_0015:月报4】 ====== 
+2019-12-26 15:00:28,428 -DXT-INFO-hede_interface_API:传入数据: {'brand': 'OPPO', 'model': 'X6D', 'imei': 'dXofRULhvq6pszE', 'price': '2122', 'phone': '13238266448', 'name': '谈满方', 'idcard': '219152199806192664', 'channelType': '1450', 'timestamp': 1577343628428}
+2019-12-26 15:00:28,428 -DXT-INFO-hede_interface_API:加密前数据: brand=OPPO&channelType=1450&idcard=219152199806192664&imei=dXofRULhvq6pszE&model=X6D&name=谈满方&phone=13238266448&price=2122&timestamp=1577343628428&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:28,428 -DXT-INFO-hede_interface_API:签名数据: 0FBB4AEE4B79126FAC4C449655362F11
+2019-12-26 15:00:28,784 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:28,784 -DXT-INFO-hede_interface_API:请求数据: {"brand": "OPPO", "model": "X6D", "imei": "dXofRULhvq6pszE", "price": "2122", "phone": "13238266448", "name": "\u8c08\u6ee1\u65b9", "idcard": "219152199806192664", "channelType": "1450", "timestamp": 1577343628428, "sign": "0FBB4AEE4B79126FAC4C449655362F11"}
+2019-12-26 15:00:28,784 -DXT-INFO-test_hede_case:返回数据:  {"status":"success","errorCode":"success","des":"提交成功","data":{"policyId":"9f6786da9fbb4622bc7ed95fc64a66af","imei":"dXofRULhvq6pszE","endDate":"2020-01-26","effectiveDate":"2019-12-27","servicePrice":"0"}}
+2019-12-26 15:00:28,785 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
+2019-12-26 15:00:28,785 -DXT-INFO-test_hede_case: ====== 【case_0016:月报5】 ====== 
+2019-12-26 15:00:28,785 -DXT-INFO-hede_interface_API:传入数据: {'brand': 'OPPO', 'model': 'X6D', 'imei': 'OXNFSV0ij9ugLSj', 'price': '2122', 'phone': '17010713914', 'name': '孟外脱语', 'idcard': '497671199811173616', 'channelType': '1451', 'timestamp': 1577343628785}
+2019-12-26 15:00:28,786 -DXT-INFO-hede_interface_API:加密前数据: brand=OPPO&channelType=1451&idcard=497671199811173616&imei=OXNFSV0ij9ugLSj&model=X6D&name=孟外脱语&phone=17010713914&price=2122&timestamp=1577343628785&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:28,786 -DXT-INFO-hede_interface_API:签名数据: 6E9A35362B058550EAA3E3311B8BE3BC
+2019-12-26 15:00:29,968 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:29,968 -DXT-INFO-hede_interface_API:请求数据: {"brand": "OPPO", "model": "X6D", "imei": "OXNFSV0ij9ugLSj", "price": "2122", "phone": "17010713914", "name": "\u5b5f\u5916\u8131\u8bed", "idcard": "497671199811173616", "channelType": "1451", "timestamp": 1577343628785, "sign": "6E9A35362B058550EAA3E3311B8BE3BC"}
+2019-12-26 15:00:29,968 -DXT-INFO-test_hede_case:返回数据:  {"status":"success","errorCode":"success","des":"提交成功","data":{"policyId":"53611d78bf504c6aa8c93d0e3763e131","imei":"OXNFSV0ij9ugLSj","endDate":"2020-01-26","effectiveDate":"2019-12-27","servicePrice":"0"}}
+2019-12-26 15:00:29,968 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
+2019-12-26 15:00:29,969 -DXT-INFO-test_hede_case: ====== 【case_0017:月报6】 ====== 
+2019-12-26 15:00:29,969 -DXT-INFO-hede_interface_API:传入数据: {'brand': 'OPPO', 'model': 'X6D', 'imei': 'kYWlqilgPdDrjy1', 'price': '2122', 'phone': '15301757868', 'name': '茅计际', 'idcard': '225368197607259790', 'channelType': '1454', 'timestamp': 1577343629969}
+2019-12-26 15:00:29,969 -DXT-INFO-hede_interface_API:加密前数据: brand=OPPO&channelType=1454&idcard=225368197607259790&imei=kYWlqilgPdDrjy1&model=X6D&name=茅计际&phone=15301757868&price=2122&timestamp=1577343629969&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:29,969 -DXT-INFO-hede_interface_API:签名数据: 11A2823BD7C25EE18AF7D6B4EA7FB854
+2019-12-26 15:00:41,908 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:41,908 -DXT-INFO-hede_interface_API:请求数据: {"brand": "OPPO", "model": "X6D", "imei": "kYWlqilgPdDrjy1", "price": "2122", "phone": "15301757868", "name": "\u8305\u8ba1\u9645", "idcard": "225368197607259790", "channelType": "1454", "timestamp": 1577343629969, "sign": "11A2823BD7C25EE18AF7D6B4EA7FB854"}
+2019-12-26 15:00:41,908 -DXT-INFO-test_hede_case:返回数据:  {"status":"success","errorCode":"success","des":"提交成功","data":{"policyId":"5f5155f6fa7846ad8afb6907f50d05cd","imei":"kYWlqilgPdDrjy1","endDate":"2020-01-26","effectiveDate":"2019-12-27","servicePrice":"0"}}
+2019-12-26 15:00:41,908 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
+2019-12-26 15:00:41,909 -DXT-INFO-test_hede_case: ====== 【case_0018:月报7】 ====== 
+2019-12-26 15:00:41,909 -DXT-INFO-hede_interface_API:传入数据: {'brand': 'OPPO', 'model': 'X6D', 'imei': 'uIWZpMyzdRDxEll', 'price': '2122', 'phone': '19965548322', 'name': '齐诉娜', 'idcard': '622365196202145698', 'channelType': '1455', 'timestamp': 1577343641909}
+2019-12-26 15:00:41,910 -DXT-INFO-hede_interface_API:加密前数据: brand=OPPO&channelType=1455&idcard=622365196202145698&imei=uIWZpMyzdRDxEll&model=X6D&name=齐诉娜&phone=19965548322&price=2122&timestamp=1577343641909&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:41,910 -DXT-INFO-hede_interface_API:签名数据: DB6C98CCC4AA7A1E43A48E6FFD5631D7
+2019-12-26 15:00:43,585 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:43,585 -DXT-INFO-hede_interface_API:请求数据: {"brand": "OPPO", "model": "X6D", "imei": "uIWZpMyzdRDxEll", "price": "2122", "phone": "19965548322", "name": "\u9f50\u8bc9\u5a1c", "idcard": "622365196202145698", "channelType": "1455", "timestamp": 1577343641909, "sign": "DB6C98CCC4AA7A1E43A48E6FFD5631D7"}
+2019-12-26 15:00:43,586 -DXT-INFO-test_hede_case:返回数据:  {"status":"success","errorCode":"success","des":"提交成功","data":{"policyId":"9f91e0cca4b245fc8a9fb8ca7fba06e5","imei":"uIWZpMyzdRDxEll","endDate":"2020-01-26","effectiveDate":"2019-12-27","servicePrice":"0"}}
+2019-12-26 15:00:43,586 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
+2019-12-26 15:00:43,587 -DXT-INFO-test_hede_case: ====== 【case_0006:缺串号】 ====== 
+2019-12-26 15:00:43,587 -DXT-INFO-hede_interface_API:传入数据: {'brand': 'OPPO', 'model': 'X6D', 'price': '5451', 'phone': '13943109437', 'name': '贺甚用', 'idcard': '350514198907133614', 'channelType': '254', 'timestamp': 1577343643587}
+2019-12-26 15:00:43,587 -DXT-INFO-hede_interface_API:加密前数据: brand=OPPO&channelType=254&idcard=350514198907133614&model=X6D&name=贺甚用&phone=13943109437&price=5451&timestamp=1577343643587&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:43,587 -DXT-INFO-hede_interface_API:签名数据: 91CF4178CD21EAC8EE24E2E456BE324F
+2019-12-26 15:00:47,206 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:47,207 -DXT-INFO-hede_interface_API:请求数据: {"brand": "OPPO", "model": "X6D", "price": "5451", "phone": "13943109437", "name": "\u8d3a\u751a\u7528", "idcard": "350514198907133614", "channelType": "254", "timestamp": 1577343643587, "sign": "91CF4178CD21EAC8EE24E2E456BE324F"}
+2019-12-26 15:00:47,207 -DXT-INFO-test_hede_case:返回数据:  {"status":"error","errorCode":"param_validate_error","des":"数据校验失败：imei: IMEI不能为空; "}
+2019-12-26 15:00:47,207 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
+2019-12-26 15:00:47,208 -DXT-INFO-test_hede_case: ====== 【case_0011:缺产品ID】 ====== 
+2019-12-26 15:00:47,208 -DXT-INFO-hede_interface_API:传入数据: {'brand': 'OPPO', 'model': 'X6D', 'imei': '198979180088623', 'price': '2122', 'phone': '15587786421', 'name': '冯科', 'idcard': '707524195403165066', 'timestamp': 1577343647208}
+2019-12-26 15:00:47,208 -DXT-INFO-hede_interface_API:加密前数据: brand=OPPO&idcard=707524195403165066&imei=198979180088623&model=X6D&name=冯科&phone=15587786421&price=2122&timestamp=1577343647208&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:47,208 -DXT-INFO-hede_interface_API:签名数据: 4F131A66DD99C01863686493D91D22EF
+2019-12-26 15:00:48,537 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:48,537 -DXT-INFO-hede_interface_API:请求数据: {"brand": "OPPO", "model": "X6D", "imei": "198979180088623", "price": "2122", "phone": "15587786421", "name": "\u51af\u79d1", "idcard": "707524195403165066", "timestamp": 1577343647208, "sign": "4F131A66DD99C01863686493D91D22EF"}
+2019-12-26 15:00:48,537 -DXT-INFO-test_hede_case:返回数据:  {"status":"error","errorCode":"param_validate_error","des":"数据校验失败：channelType: 产品不能为空; "}
+2019-12-26 15:00:48,538 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
+2019-12-26 15:00:48,539 -DXT-INFO-test_hede_case: ====== 【case_0007:缺价格】 ====== 
+2019-12-26 15:00:48,539 -DXT-INFO-hede_interface_API:传入数据: {'brand': 'OPPO', 'model': 'X6D', 'imei': '486922854791607', 'phone': '18561130342', 'name': '何关', 'idcard': '634253194303152794', 'channelType': '157', 'timestamp': 1577343648539}
+2019-12-26 15:00:48,539 -DXT-INFO-hede_interface_API:加密前数据: brand=OPPO&channelType=157&idcard=634253194303152794&imei=486922854791607&model=X6D&name=何关&phone=18561130342&timestamp=1577343648539&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:48,539 -DXT-INFO-hede_interface_API:签名数据: 0A1FEDF8785734C1DF517E72CE302A30
+2019-12-26 15:00:48,616 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:48,616 -DXT-INFO-hede_interface_API:请求数据: {"brand": "OPPO", "model": "X6D", "imei": "486922854791607", "phone": "18561130342", "name": "\u4f55\u5173", "idcard": "634253194303152794", "channelType": "157", "timestamp": 1577343648539, "sign": "0A1FEDF8785734C1DF517E72CE302A30"}
+2019-12-26 15:00:48,617 -DXT-INFO-test_hede_case:返回数据:  {"status":"error","errorCode":"param_validate_error","des":"数据校验失败：price: 手机价格不能为空; "}
+2019-12-26 15:00:48,617 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
+2019-12-26 15:00:48,618 -DXT-INFO-test_hede_case: ====== 【case_0009:缺名字】 ====== 
+2019-12-26 15:00:48,618 -DXT-INFO-hede_interface_API:传入数据: {'brand': 'OPPO', 'model': 'X6D', 'imei': '167558892320849', 'price': '212', 'phone': '18235412465', 'idcard': '762104196102244740', 'channelType': '56', 'timestamp': 1577343648618}
+2019-12-26 15:00:48,618 -DXT-INFO-hede_interface_API:加密前数据: brand=OPPO&channelType=56&idcard=762104196102244740&imei=167558892320849&model=X6D&phone=18235412465&price=212&timestamp=1577343648618&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:48,618 -DXT-INFO-hede_interface_API:签名数据: 255FC543EC940DF77E70755B9EC08454
+2019-12-26 15:00:48,779 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:48,779 -DXT-INFO-hede_interface_API:请求数据: {"brand": "OPPO", "model": "X6D", "imei": "167558892320849", "price": "212", "phone": "18235412465", "idcard": "762104196102244740", "channelType": "56", "timestamp": 1577343648618, "sign": "255FC543EC940DF77E70755B9EC08454"}
+2019-12-26 15:00:48,779 -DXT-INFO-test_hede_case:返回数据:  {"status":"error","errorCode":"param_validate_error","des":"数据校验失败：name: 顾客姓名不能为空; "}
+2019-12-26 15:00:48,780 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
+2019-12-26 15:00:48,780 -DXT-INFO-test_hede_case: ====== 【case_0005:缺品牌】 ====== 
+2019-12-26 15:00:48,781 -DXT-INFO-hede_interface_API:传入数据: {'model': 'X6D', 'imei': '195527313570460', 'price': '5451', 'phone': '14792721956', 'name': '褚则', 'idcard': '15564219910220523X', 'channelType': '123', 'timestamp': 1577343648781}
+2019-12-26 15:00:48,781 -DXT-INFO-hede_interface_API:加密前数据: channelType=123&idcard=15564219910220523X&imei=195527313570460&model=X6D&name=褚则&phone=14792721956&price=5451&timestamp=1577343648781&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:48,781 -DXT-INFO-hede_interface_API:签名数据: CFA3BC6960FFEBD838F251C40680C051
+2019-12-26 15:00:52,685 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:52,685 -DXT-INFO-hede_interface_API:请求数据: {"model": "X6D", "imei": "195527313570460", "price": "5451", "phone": "14792721956", "name": "\u891a\u5219", "idcard": "15564219910220523X", "channelType": "123", "timestamp": 1577343648781, "sign": "CFA3BC6960FFEBD838F251C40680C051"}
+2019-12-26 15:00:52,686 -DXT-INFO-test_hede_case:返回数据:  {"status":"error","errorCode":"param_validate_error","des":"数据校验失败：brand: 品牌不能为空; "}
+2019-12-26 15:00:52,686 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
+2019-12-26 15:00:52,687 -DXT-INFO-test_hede_case: ====== 【case_0004:缺型号】 ====== 
+2019-12-26 15:00:52,687 -DXT-INFO-hede_interface_API:传入数据: {'brand': 'OPPO', 'imei': '771406747523711', 'price': '5451', 'phone': '17018916441', 'name': '岑参别随', 'idcard': '439162197002025857', 'channelType': '156', 'timestamp': 1577343652687}
+2019-12-26 15:00:52,687 -DXT-INFO-hede_interface_API:加密前数据: brand=OPPO&channelType=156&idcard=439162197002025857&imei=771406747523711&name=岑参别随&phone=17018916441&price=5451&timestamp=1577343652687&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:52,687 -DXT-INFO-hede_interface_API:签名数据: B72368CC247EDED250F88D7454566186
+2019-12-26 15:00:52,786 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:52,786 -DXT-INFO-hede_interface_API:请求数据: {"brand": "OPPO", "imei": "771406747523711", "price": "5451", "phone": "17018916441", "name": "\u5c91\u53c2\u522b\u968f", "idcard": "439162197002025857", "channelType": "156", "timestamp": 1577343652687, "sign": "B72368CC247EDED250F88D7454566186"}
+2019-12-26 15:00:52,786 -DXT-INFO-test_hede_case:返回数据:  {"status":"error","errorCode":"param_validate_error","des":"数据校验失败：model: 型号不能为空; "}
+2019-12-26 15:00:52,787 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
+2019-12-26 15:00:52,788 -DXT-INFO-test_hede_case: ====== 【case_0008:缺手机】 ====== 
+2019-12-26 15:00:52,788 -DXT-INFO-hede_interface_API:传入数据: {'brand': 'OPPO', 'model': 'X6D', 'imei': '752250421477083', 'price': '212', 'name': '冯德级广', 'idcard': '528764200009189679', 'channelType': '167', 'timestamp': 1577343652788}
+2019-12-26 15:00:52,788 -DXT-INFO-hede_interface_API:加密前数据: brand=OPPO&channelType=167&idcard=528764200009189679&imei=752250421477083&model=X6D&name=冯德级广&price=212&timestamp=1577343652788&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:52,788 -DXT-INFO-hede_interface_API:签名数据: E9B87D987EEB86D9AD5982FD8D12D2A9
+2019-12-26 15:00:55,794 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:55,794 -DXT-INFO-hede_interface_API:请求数据: {"brand": "OPPO", "model": "X6D", "imei": "752250421477083", "price": "212", "name": "\u51af\u5fb7\u7ea7\u5e7f", "idcard": "528764200009189679", "channelType": "167", "timestamp": 1577343652788, "sign": "E9B87D987EEB86D9AD5982FD8D12D2A9"}
+2019-12-26 15:00:55,794 -DXT-INFO-test_hede_case:返回数据:  {"status":"error","errorCode":"param_validate_error","des":"数据校验失败：phone: 手机不能为空; "}
+2019-12-26 15:00:55,795 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
+2019-12-26 15:00:55,795 -DXT-INFO-test_hede_case: ====== 【case_0010:缺身份证】 ====== 
+2019-12-26 15:00:55,796 -DXT-INFO-hede_interface_API:传入数据: {'brand': 'OPPO', 'model': 'X6D', 'imei': 'Enwm1Fliy1bYMRp', 'price': '2122', 'phone': '15852824331', 'name': '严持怕酒', 'channelType': '115', 'timestamp': 1577343655796}
+2019-12-26 15:00:55,796 -DXT-INFO-hede_interface_API:加密前数据: brand=OPPO&channelType=115&imei=Enwm1Fliy1bYMRp&model=X6D&name=严持怕酒&phone=15852824331&price=2122&timestamp=1577343655796&key=b0a44d2ac9bb4196b8977360554f91bb
+2019-12-26 15:00:55,796 -DXT-INFO-hede_interface_API:签名数据: 69BBD8CFD854EC15271BE3C11C896ADD
+2019-12-26 15:00:55,973 -DXT-INFO-hede_interface_API:请求地址: http://apitest.dxtmobile.com/insure/channelPolicy/save
+2019-12-26 15:00:55,973 -DXT-INFO-hede_interface_API:请求数据: {"brand": "OPPO", "model": "X6D", "imei": "Enwm1Fliy1bYMRp", "price": "2122", "phone": "15852824331", "name": "\u4e25\u6301\u6015\u9152", "channelType": "115", "timestamp": 1577343655796, "sign": "69BBD8CFD854EC15271BE3C11C896ADD"}
+2019-12-26 15:00:55,974 -DXT-INFO-test_hede_case:返回数据:  {"status":"error","errorCode":"policy_save_repeat","des":"重复投保;","data":{"model":"X6D","phone":"15852824331","channelType":"115","store":"","status":"1","orderType":"2","imei":"Enwm1Fliy1bYMRp","idcard":"","endDate":"2020-12-10","cardType":"乐享屏安-苹果","city":"","price":"2122","policyId":"7f3ceda48dfa4c378396be1833240698","color":"","name":"严持怕酒","saleman":"","brand":"OPPO","createDate":"2019-12-11 09:56:49","effectiveDate":"2019-12-11","servicePrice":"0"}}
+2019-12-26 15:00:55,974 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 

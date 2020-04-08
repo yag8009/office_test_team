@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %}主页{% endblock %}
+{% block content %}
+    {% if request.session.is_login %}
+    <h1>你好,{{ request.session.user_name }}！欢迎回来！</h1>
+        <div class="container">
+            <h1 class="title">接口测试</h1>
+            <div>
+                <p class="info-code">成功接口：<span id="success-count" class="success">0</span></p>
+                <p class="info-code">失败接口：<span id="failed-count" class="failed">0</span></p>
+                <p class="info-code">错误接口：<span id="error-count" class="error">0</span></p>
+            </div>
+            <div>
+                <ul id="test-list" class="test-list"></ul>
+            </div>
+            <button id="btn" class="btn" type="button">开始检测</button>
+        </div>
+    {% else %}
+    <h1>你尚未登录，只能访问公开内容！</h1>
+    {% endif %}
+{% endblock %}

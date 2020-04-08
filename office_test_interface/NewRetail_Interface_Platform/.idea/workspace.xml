@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1e4aaff-24aa-43be-8bd0-6f0b061b8bcb" name="默认" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bases/Base_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bases/Base_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bases/Base_http.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bases/Base_http.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bases/Base_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bases/Base_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bases/Base_mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bases/Base_mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bases/Base_yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bases/Base_yaml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cases/run_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cases/run_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config_data/testcases1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/APITest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/APITest.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/NewRetail_Interface_Platform$tool_yaml.coverage" NAME="tool_yaml Coverage Results" MODIFIED="1545217567279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bases" />
+    <SUITE FILE_PATH="coverage/NewRetail_Interface_Platform$run_case.coverage" NAME="run_case Coverage Results" MODIFIED="1545734692341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cases" />
+    <SUITE FILE_PATH="coverage/NewRetail_Interface_Platform$Unittests_in_APITest_py.coverage" NAME="Unittests in APITest.py Coverage Results" MODIFIED="1545621621181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tasks" />
+    <SUITE FILE_PATH="coverage/NewRetail_Interface_Platform$Unittests_for_Login_Test_ActionTest_getTestFunc.coverage" NAME="Unittests for Login_Test.ActionTest.getTestFunc Coverage Results" MODIFIED="1545054862219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tasks" />
+    <SUITE FILE_PATH="coverage/NewRetail_Interface_Platform$Base_mail.coverage" NAME="Base_mail Coverage Results" MODIFIED="1545731953714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bases" />
+    <SUITE FILE_PATH="coverage/NewRetail_Interface_Platform$Unittests_for_Login_Test_ActionTest.coverage" NAME="Unittests for Login_Test.ActionTest Coverage Results" MODIFIED="1545187618666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tasks" />
+    <SUITE FILE_PATH="coverage/NewRetail_Interface_Platform$log.coverage" NAME="log Coverage Results" MODIFIED="1545187856244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bases" />
+    <SUITE FILE_PATH="coverage/NewRetail_Interface_Platform$tttt.coverage" NAME="tttt Coverage Results" MODIFIED="1545553800969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bases" />
+    <SUITE FILE_PATH="coverage/NewRetail_Interface_Platform$Base_excel.coverage" NAME="Base_excel Coverage Results" MODIFIED="1545723834724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bases" />
+    <SUITE FILE_PATH="coverage/NewRetail_Interface_Platform$config_http.coverage" NAME="config_http Coverage Results" MODIFIED="1545217073165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bases" />
+    <SUITE FILE_PATH="coverage/NewRetail_Interface_Platform$Unittests_in_Login_Test_py.coverage" NAME="Unittests in Login_Test.py Coverage Results" MODIFIED="1545188163829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tasks" />
+    <SUITE FILE_PATH="coverage/NewRetail_Interface_Platform$Unittests_for_Login_Test_ActionTest_setUp.coverage" NAME="Unittests for Login_Test.ActionTest.setUp Coverage Results" MODIFIED="1545053341293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tasks" />
+    <SUITE FILE_PATH="coverage/NewRetail_Interface_Platform$APITest.coverage" NAME="APITest Coverage Results" MODIFIED="1545218378891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tasks" />
+    <SUITE FILE_PATH="coverage/NewRetail_Interface_Platform$Base_yaml.coverage" NAME="Base_yaml Coverage Results" MODIFIED="1545723728725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bases" />
+    <SUITE FILE_PATH="coverage/NewRetail_Interface_Platform$Base_http.coverage" NAME="Base_http Coverage Results" MODIFIED="1545730901244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bases" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1262022791">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.open.time.71" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="1" />
+          <entry key="log" value="8" />
+          <entry key="py" value="64" />
+          <entry key="txt" value="1" />
+          <entry key="yaml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="64" />
+          <entry key="YAML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="28" />
+          <entry key="log" value="8" />
+          <entry key="py" value="3054" />
+          <entry key="yaml" value="160" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="3082" />
+          <entry key="YAML" value="160" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Config_data/login.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="602">
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bases/Base_mail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+              <folding>
+                <element signature="e#186#200#0" expanded="true" />
+                <marker date="1545733493755" expanded="true" signature="375:2835" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tasks/APITest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cases/run_case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="e#98#109#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bases/Base_http.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+              <folding>
+                <element signature="e#95#110#0" expanded="true" />
+                <marker date="1545730901237" expanded="true" signature="256:853" ph="..." />
+                <marker date="1545730901237" expanded="true" signature="961:966" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Config_data/data.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bases/Base_log.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>params</find>
+      <find>setattr</find>
+      <find>通过</find>
+      <find>self.</find>
+      <find>self.cookies = res.cookies</find>
+      <find>tester</find>
+      <find>subtestlist</find>
+      <find>_TestResult</find>
+      <find>测试结果</find>
+      <find>description</find>
+      <find>toHide</find>
+      <find>passrate</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Result/log.txt" />
+        <option value="$PROJECT_DIR$/Bases/tool_class.py" />
+        <option value="$PROJECT_DIR$/Bases/send_mail.py" />
+        <option value="$PROJECT_DIR$/Bases/common_assert.py" />
+        <option value="$PROJECT_DIR$/Tasks/login.py" />
+        <option value="$PROJECT_DIR$/Bases/BasePage.py" />
+        <option value="$PROJECT_DIR$/Tasks/Login_Test.py" />
+        <option value="$PROJECT_DIR$/Bases/tool_assert.py" />
+        <option value="$PROJECT_DIR$/Tasks/BasePage.py" />
+        <option value="$PROJECT_DIR$/Bases/log.py" />
+        <option value="$PROJECT_DIR$/Bases/tool_yaml.py" />
+        <option value="$PROJECT_DIR$/Bases/config_http.py" />
+        <option value="$PROJECT_DIR$/Bases/Req_http.py" />
+        <option value="$PROJECT_DIR$/Bases/tttt.py" />
+        <option value="$PROJECT_DIR$/Bases/sdasd.py" />
+        <option value="$PROJECT_DIR$/Result/logging.log" />
+        <option value="$PROJECT_DIR$/Bases/HTMLTestReportCN.py" />
+        <option value="$PROJECT_DIR$/Bases/HTMLTestRunner_PY3.py" />
+        <option value="$PROJECT_DIR$/Config_data/data.yaml" />
+        <option value="$PROJECT_DIR$/Bases/Base_yaml.py" />
+        <option value="$PROJECT_DIR$/Bases/Base_excel.py" />
+        <option value="$PROJECT_DIR$/Tasks/APITest.py" />
+        <option value="$PROJECT_DIR$/Bases/Base_http.py" />
+        <option value="$PROJECT_DIR$/Bases/Base_log.py" />
+        <option value="$PROJECT_DIR$/Cases/run_case.py" />
+        <option value="$PROJECT_DIR$/Bases/Base_mail.py" />
+        <option value="$PROJECT_DIR$/Config_data/login.yaml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="539" />
+    <option name="width" value="1397" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NewRetail_Interface_Platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewRetail_Interface_Platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewRetail_Interface_Platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewRetail_Interface_Platform" type="462c0819:PsiDirectoryNode" />
+              <item name="Bases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewRetail_Interface_Platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewRetail_Interface_Platform" type="462c0819:PsiDirectoryNode" />
+              <item name="Cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewRetail_Interface_Platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewRetail_Interface_Platform" type="462c0819:PsiDirectoryNode" />
+              <item name="Config_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewRetail_Interface_Platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewRetail_Interface_Platform" type="462c0819:PsiDirectoryNode" />
+              <item name="Tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\pycom\NewRetail_Interface_Platform" />
+      <recent name="E:\pycom\NewRetail_Interface_Platform\Tasks" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\pycom\NewRetail_Interface_Platform\Bases" />
+      <recent name="F:\pycom\NewRetail_Interface_Platform\Bases" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_case">
+    <configuration name="Base_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NewRetail_Interface_Platform" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bases/Base_excel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Base_http" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NewRetail_Interface_Platform" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bases/Base_http.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Base_mail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NewRetail_Interface_Platform" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bases/Base_mail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Base_yaml" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NewRetail_Interface_Platform" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bases/Base_yaml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_case" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NewRetail_Interface_Platform" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cases/run_case.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="NewRetail_Interface_Platform" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.run_case" />
+      <item itemvalue="Python.Base_http" />
+      <item itemvalue="Python.Base_yaml" />
+      <item itemvalue="Python.Base_excel" />
+      <item itemvalue="Python.Base_mail" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_case" />
+        <item itemvalue="Python.Base_mail" />
+        <item itemvalue="Python.Base_http" />
+        <item itemvalue="Python.Base_excel" />
+        <item itemvalue="Python.Base_yaml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1e4aaff-24aa-43be-8bd0-6f0b061b8bcb" name="默认" comment="" />
+      <created>1545050468893</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545050468893</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_Login_Test_py - 2018.12.19 at 10h 51m 25s.xml">
+      <configuration name="Unittests in Login_Test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Login_Test_py - 2018.12.19 at 10h 51m 49s.xml">
+      <configuration name="Unittests in Login_Test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Login_Test_py - 2018.12.19 at 10h 56m 04s.xml">
+      <configuration name="Unittests in Login_Test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_APITest_py - 2018.12.24 at 10h 47m 40s.xml">
+      <configuration name="Unittests in APITest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_APITest_py - 2018.12.24 at 10h 48m 39s.xml">
+      <configuration name="Unittests in APITest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_APITest_py - 2018.12.24 at 11h 02m 51s.xml">
+      <configuration name="Unittests in APITest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_APITest_py - 2018.12.24 at 11h 05m 21s.xml">
+      <configuration name="Unittests in APITest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_APITest_py - 2018.12.24 at 11h 11m 08s.xml">
+      <configuration name="Unittests in APITest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_APITest_py - 2018.12.24 at 11h 20m 02s.xml">
+      <configuration name="Unittests in APITest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_APITest_py - 2018.12.24 at 11h 20m 26s.xml">
+      <configuration name="Unittests in APITest.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12686567" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30585682" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39845476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296582" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289183" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3289183" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24986681" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12739871" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296582" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30585682" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39845476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296582" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289183" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3289183" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24986681" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tasks/APITest.py</url>
+          <line>23</line>
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="25">
+            <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/unittest/loader.py" />
+    <entry file="file://$PROJECT_DIR$/Result/2018-12-17-22_03_14_result.html" />
+    <entry file="file://$PROJECT_DIR$/Bases/logging.log" />
+    <entry file="file://$PROJECT_DIR$/Result/log.txt" />
+    <entry file="file://$PROJECT_DIR$/Bases/common_assert.py" />
+    <entry file="file://$PROJECT_DIR$/Tasks/login.py" />
+    <entry file="file://$PROJECT_DIR$/Tasks/BasePage.py" />
+    <entry file="file://$PROJECT_DIR$/Tasks/Login_Test.py" />
+    <entry file="file://$PROJECT_DIR$/Bases/BeautifulReport.py" />
+    <entry file="file://$PROJECT_DIR$/tttt.py" />
+    <entry file="file://$PROJECT_DIR$/Bases/config_http.py" />
+    <entry file="file://D:/Python35/Lib/unittest/suite.py" />
+    <entry file="file://D:/Python35/Lib/unittest/case.py" />
+    <entry file="file://D:/Python35/Lib/logging/__init__.py" />
+    <entry file="file://D:/Python35/Lib/site-packages/requests/__init__.py" />
+    <entry file="file://D:/Python35/Lib/site-packages/requests/api.py" />
+    <entry file="file://$PROJECT_DIR$/Result/logging.log" />
+    <entry file="file://$PROJECT_DIR$/Bases/HTMLTestReportCN.py" />
+    <entry file="file://$PROJECT_DIR$/Bases/HTMLTestRunner_PY3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="878" column="34" selection-start-line="878" selection-start-column="26" selection-end-line="878" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bases/sdasd.py" />
+    <entry file="file://$PROJECT_DIR$/Bases/Base_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bases/Base_random.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/580420272/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="3574" column="8" selection-start-line="3574" selection-start-column="8" selection-end-line="3574" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/filestwo/Python35/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bases/Base_assert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bases/Base_yaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+          <folding>
+            <element signature="e#98#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bases/Base_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#98#109#0" expanded="true" />
+            <marker date="1545724536196" expanded="true" signature="204:209" ph="..." />
+            <marker date="1545724536196" expanded="true" signature="1957:1961" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config_data/data.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks/APITest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bases/Base_http.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+          <folding>
+            <element signature="e#95#110#0" expanded="true" />
+            <marker date="1545730901237" expanded="true" signature="256:853" ph="..." />
+            <marker date="1545730901237" expanded="true" signature="961:966" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bases/Base_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cases/run_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#98#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bases/Base_mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="e#186#200#0" expanded="true" />
+            <marker date="1545733493755" expanded="true" signature="375:2835" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config_data/login.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

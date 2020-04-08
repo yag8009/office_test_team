@@ -1,0 +1,35 @@
+2018-06-26 18:41:49,065 -simple_example-INFO-pyse:-- browser: chrome
+2018-06-26 18:41:49,069 -simple_example-INFO-pyse:-- wait: 10
+2018-06-26 18:41:49,070 -simple_example-INFO-pyse:-- open: https://github.com/login
+2018-06-26 18:42:24,348 -simple_example-INFO-pyse:--  close 
+2018-06-26 18:42:29,278 -simple_example-INFO-pyse:-- browser: chrome
+2018-06-26 18:42:29,279 -simple_example-INFO-pyse:-- wait: 10
+2018-06-26 18:42:29,280 -simple_example-INFO-pyse:-- open: https://github.com/login
+2018-06-26 18:43:31,828 -simple_example-INFO-pyse:--  close 
+2018-06-26 18:43:36,887 -simple_example-INFO-pyse:-- browser: chrome
+2018-06-26 18:43:36,893 -simple_example-INFO-pyse:-- wait: 10
+2018-06-26 18:43:36,894 -simple_example-INFO-pyse:-- open: https://github.com/login
+2018-06-26 18:43:50,029 -simple_example-INFO-pyse:--  close 
+2018-06-26 18:43:55,040 -simple_example-INFO-pyse:-- browser: chrome
+2018-06-26 18:43:55,042 -simple_example-INFO-pyse:-- wait: 10
+2018-06-26 18:43:55,042 -simple_example-INFO-pyse:-- open: https://github.com/login
+2018-06-26 18:44:11,850 -simple_example-INFO-pyse:--  close 
+2018-06-26 18:44:16,866 -simple_example-INFO-pyse:-- browser: chrome
+2018-06-26 18:44:16,871 -simple_example-INFO-pyse:-- wait: 10
+2018-06-26 18:44:16,872 -simple_example-INFO-pyse:-- open: https://github.com/login
+2018-06-26 18:45:17,844 -simple_example-INFO-pyse:--  close 
+2018-06-26 18:48:35,180 -simple_example-INFO-pyse:-- browser: chrome
+2018-06-26 18:48:35,181 -simple_example-INFO-pyse:-- wait: 10
+2018-06-26 18:48:35,181 -simple_example-INFO-pyse:-- open: https://github.com/login
+2018-06-26 18:49:07,166 -simple_example-INFO-pyse:--  close 
+2018-06-26 18:49:15,241 -simple_example-INFO-pyse:-- browser: chrome
+2018-06-26 18:49:15,242 -simple_example-INFO-pyse:-- wait: 10
+2018-06-26 18:49:15,242 -simple_example-INFO-pyse:-- open: https://github.com/login
+2018-06-26 18:49:59,785 -simple_example-INFO-pyse:--  close 
+2018-06-26 18:50:08,523 -simple_example-INFO-pyse:-- browser: chrome
+2018-06-26 18:50:08,525 -simple_example-INFO-pyse:-- wait: 30
+2018-06-26 18:50:08,525 -simple_example-INFO-pyse:-- open: https://github.com/login
+2018-06-26 18:50:53,501 -simple_example-INFO-pyse:--  close 
+2018-06-26 18:50:58,432 -simple_example-INFO-pyse:-- browser: chrome
+2018-06-26 18:50:58,434 -simple_example-INFO-pyse:-- wait: 30
+2018-06-26 18:50:58,434 -simple_example-INFO-pyse:-- open: https://github.com/login
