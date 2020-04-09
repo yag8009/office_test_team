@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e428e9a-a9a9-49e4-aea3-6895f4b8caf4" name="Default Changelist" comment="" />
+    <list default="true" id="0e428e9a-a9a9-49e4-aea3-6895f4b8caf4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_django/office_test_django/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_django/office_test_django/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request_test/hede_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_test/hede_API.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_word/random_test_case/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_word/random_test_case/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_word/random_test_case/.idea/random_test_case.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_word/random_test_case/.idea/random_test_case.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_word/random_test_case/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_word/random_test_case/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_word/random_test_case/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_word/random_test_case/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/encryption/md5_hede.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="330">
               <caret line="10" column="12" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="12" />
               <folding>
                 <element signature="e#115#129#0" expanded="true" />
@@ -25,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/request_test/hede_API.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="51" column="32" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="32" />
+            <state relative-caret-position="261">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -43,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_random/random_number.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
+            <state relative-caret-position="528">
               <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="38" />
               <folding>
                 <element signature="e#120#133#0" expanded="true" />
@@ -55,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_random/random_ID_card.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1023">
+            <state relative-caret-position="1056">
               <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="44" />
               <folding>
                 <element signature="e#122#135#0" expanded="true" />
@@ -67,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_random/random_phone.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
+            <state relative-caret-position="759">
               <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="36" />
               <folding>
                 <element signature="e#128#141#0" expanded="true" />
@@ -79,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_random/random_string.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
+            <state relative-caret-position="924">
               <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
               <folding>
                 <element signature="e#121#134#0" expanded="true" />
@@ -96,6 +105,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -117,6 +129,7 @@
     <option name="width" value="1754" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -126,23 +139,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="office_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="office_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="office_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="office_test" type="462c0819:PsiDirectoryNode" />
-              <item name="encryption" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="office_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="office_test" type="462c0819:PsiDirectoryNode" />
-              <item name="public_random" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="office_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="office_test" type="462c0819:PsiDirectoryNode" />
-              <item name="request_test" type="462c0819:PsiDirectoryNode" />
+              <item name="hede_interface_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hede_interface_test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -152,8 +150,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_work" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -308,21 +307,23 @@
       <workItem from="1586239364017" duration="6272000" />
       <workItem from="1586263621353" duration="1626000" />
       <workItem from="1586324791228" duration="37000" />
+      <workItem from="1586412627997" duration="79000" />
+      <workItem from="1586412774251" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23526000" />
+    <option name="totallyTimeSpent" value="23626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="164" y="0" width="1754" height="1040" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1446281" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14817001" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33480176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33406836" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,6 +380,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/office_test$random_cn_name.coverage" NAME="random_cn_name Coverage Results" MODIFIED="1586239817764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public_random" />
+    <SUITE FILE_PATH="coverage/hede_interface_test$hede_API.coverage" NAME="hede_API Coverage Results" MODIFIED="1586412777014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/request_test" />
     <SUITE FILE_PATH="coverage/office_test$hede_API.coverage" NAME="hede_API Coverage Results" MODIFIED="1586265417706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/request_test" />
     <SUITE FILE_PATH="coverage/office_test$random_ID_card.coverage" NAME="random_ID_card Coverage Results" MODIFIED="1586239711360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public_random" />
     <SUITE FILE_PATH="coverage/office_test$md5_hede.coverage" NAME="md5_hede Coverage Results" MODIFIED="1584714376248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/encryption" />
@@ -396,7 +398,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/encryption/md5_hede.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="330">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="12" />
           <folding>
             <element signature="e#115#129#0" expanded="true" />
@@ -413,7 +415,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_random/random_number.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="528">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="e#120#133#0" expanded="true" />
@@ -423,7 +425,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_random/random_ID_card.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
+        <state relative-caret-position="1056">
           <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="44" />
           <folding>
             <element signature="e#122#135#0" expanded="true" />
@@ -433,7 +435,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_random/random_phone.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
+        <state relative-caret-position="759">
           <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="36" />
           <folding>
             <element signature="e#128#141#0" expanded="true" />
@@ -443,7 +445,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_random/random_string.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
+        <state relative-caret-position="924">
           <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
           <folding>
             <element signature="e#121#134#0" expanded="true" />
@@ -453,11 +455,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/request_test/hede_API.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="32" />
-          <folding>
-            <element signature="e#115#126#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="261">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
         </state>
       </provider>
     </entry>

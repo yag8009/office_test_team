@@ -33,7 +33,7 @@ def hede_api(url, data, key):
     print("请求数据: " + str(datas))
     data_list = sorted(datas.items(), key=lambda e: e[0], reverse=False)
     datas_str = "&".join(u"{}={}".format(k, v) for k, v in data_list) + '&' + 'key' + '=' + key
-    # print("加密前数据: " + datas_str)
+    print("加密前数据: " + datas_str)
 
     sign = md5_hede(datas_str).upper()
     # print("签名数据: " + sign)
