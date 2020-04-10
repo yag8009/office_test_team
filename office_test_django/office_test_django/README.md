@@ -7,7 +7,7 @@
 - pip install pyecharts
 
 ## 创建django
-* django-admin startproject Diss_Platform(项目名)
+* django-admin startproject office_test_django(项目名)
 * python manage.py startapp api_platform(功能模块名)
 ## 修改srttings
 - 修改显示中文
@@ -26,9 +26,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'api_platform',
-    'captcha',
-    ...
 ]
 ```
 ## 图片验证码
@@ -64,4 +61,9 @@ INSTALLED_APPS = [
 
 ## 启动开发服务器
 - python manage.py runserver
+
+
+## 用户管理
+- office_user
+- 用户注册、登录、退出
 

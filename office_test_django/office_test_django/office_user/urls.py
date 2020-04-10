@@ -8,8 +8,8 @@
 # ---
 from django.urls import path
 
-from UserSite import views
-app_name = "UserSite"
+from office_user import views
+app_name = "office_user"
 urlpatterns = [
     # path('', views.index),
     path('index/', views.login),
