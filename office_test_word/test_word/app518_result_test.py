@@ -77,58 +77,15 @@ def getinfo(args, data):
             result_count = result_count + 1
             str_int = str(data)
             units1 = i + 1
-            units2 = i + 2
-            units3 = i + 3
-            units4 = i + 4
-            units5 = i + 5
+
             if units1 < len(cmplist):
                 if str_int in cmplist[units1][1]:
                     result_true = result_true + 1
                     result_list.append(
                         (cmplist[i][0][8:], cmplist[i][1], str_int, ("|%s对" % str_int))
                     )
-                elif units2 < len(cmplist):
-                    if str_int in cmplist[units2][1]:
-                        result_true = result_true + 1
-                        result_list.append(
-                            (cmplist[i][0][8:], cmplist[i][1], str_int, ("|%s对" % str_int))
-                        )
-                    elif units3 < len(cmplist):
-                        if str_int in cmplist[units3][1]:
-                            result_true = result_true + 1
-                            result_list.append(
-                                (cmplist[i][0][8:], cmplist[i][1], str_int, ("|%s对" % str_int))
-                            )
-                        elif units4 < len(cmplist):
-                            if str_int in cmplist[units4][1]:
-                                result_true = result_true + 1
-                                result_list.append(
-                                    (cmplist[i][0][8:], cmplist[i][1], str_int, ("|%s对" % str_int))
-                                )
-                            elif units5 < len(cmplist):
-                                if str_int in cmplist[units5][1]:
-                                    result_true = result_true + 1
-                                    result_list.append(
-                                        (cmplist[i][0][8:], cmplist[i][1], str_int, ("|%s对" % str_int))
-                                    )
-                                else:
-                                    result_error = result_error + 1
-                                    result_list.append(
-                                        (cmplist[i][0][8:], cmplist[i][1], str_int, ("|%s--" % str_int))
-                                    )
-                            else:
-                                result_list.append(
-                                    (cmplist[i][0][8:], cmplist[i][1], str_int, ("|%s--" % str_int))
-                                )
-                        else:
-                            result_list.append(
-                                (cmplist[i][0][8:], cmplist[i][1], str_int, ("|%s--" % str_int))
-                            )
-                    else:
-                        result_list.append(
-                            (cmplist[i][0][8:], cmplist[i][1], str_int, ("|%s--" % str_int))
-                        )
                 else:
+                    result_error = result_error + 1
                     result_list.append(
                         (cmplist[i][0][8:], cmplist[i][1], str_int, ("|%s--" % str_int))
                     )

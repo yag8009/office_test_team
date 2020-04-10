@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b7c0861-7baa-43ea-81c6-ab43afffc196" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSite/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/office_user/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSite/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/office_user/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSite/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/office_user/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSite/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/office_user/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSite/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/office_user/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSite/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/office_user/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/office_user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/office_user/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/office_test_django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/office_test_django/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/office_test_django/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/office_test_django/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="4b7c0861-7baa-43ea-81c6-ab43afffc196" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/office_test_django/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="115" column="46" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
+            <state relative-caret-position="939">
+              <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
             </state>
           </provider>
         </entry>
@@ -40,13 +25,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/office_user/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
+            <state relative-caret-position="528">
               <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
                 <element signature="e#207#797#0" />
                 <element signature="e#824#1579#0" />
-                <element signature="e#2294#2360#0" />
               </folding>
             </state>
           </provider>
@@ -133,7 +117,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Diss_Platform" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../office_test_interface/hede_interface_test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -191,11 +175,12 @@
       <workItem from="1586414803367" duration="649000" />
       <workItem from="1586416581874" duration="214000" />
       <workItem from="1586416817112" duration="6027000" />
+      <workItem from="1586498361144" duration="199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11192000" />
+    <option name="totallyTimeSpent" value="11391000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -209,7 +194,7 @@
   <component name="ToolWindowManager">
     <frame x="302" y="5" width="1610" height="1025" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15806451" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -356,28 +341,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/office_test_django/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="939">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/office_user/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
+        <state relative-caret-position="528">
           <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
             <element signature="e#207#797#0" />
             <element signature="e#824#1579#0" />
-            <element signature="e#2294#2360#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/office_user/models.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/office_test_django/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="115" column="46" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
-        </state>
-      </provider>
     </entry>
   </component>
 </project>
