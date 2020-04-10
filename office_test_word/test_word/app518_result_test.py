@@ -79,7 +79,7 @@ def getinfo(args, data):
             units1 = i + 1
             units2 = i + 2
             units3 = i + 3
-
+            units4 = i + 4
             if units1 < len(cmplist):
                 if str_int in cmplist[units1][1]:
                     result_true = result_true + 1
@@ -98,8 +98,18 @@ def getinfo(args, data):
                             result_list.append(
                                 (cmplist[i][0][8:], cmplist[i][1], str_int, ("|%s对" % str_int))
                             )
+                        elif units4 < len(cmplist):
+                            if str_int in cmplist[units4][1]:
+                                result_true = result_true + 1
+                                result_list.append(
+                                    (cmplist[i][0][8:], cmplist[i][1], str_int, ("|%s对" % str_int))
+                                )
+                            else:
+                                result_error = result_error + 1
+                                result_list.append(
+                                    (cmplist[i][0][8:], cmplist[i][1], str_int, ("|%s--" % str_int))
+                                )
                         else:
-                            result_error = result_error + 1
                             result_list.append(
                                 (cmplist[i][0][8:], cmplist[i][1], str_int, ("|%s--" % str_int))
                             )
@@ -176,7 +186,7 @@ def getValue(args):
             print("[请修改显示参数]")
 
     print("显现 合计：")
-    for y in [31, 13]:
+    for y in [31, 21]:
         p0 = 0
         p1 = 0
         p2 = 0
@@ -230,7 +240,7 @@ def getValue(args):
         print(dict4)
 
     print("error 合计：")
-    for x in [31, 13]:
+    for x in [31, 21]:
         error0 = 0
         error1 = 0
         error2 = 0
@@ -284,7 +294,7 @@ def getValue(args):
         print(dict4)
 
     print("pass 合计：")
-    for x in [31, 13]:
+    for x in [31, 21]:
         rst0 = 0
         rst1 = 0
         rst2 = 0
