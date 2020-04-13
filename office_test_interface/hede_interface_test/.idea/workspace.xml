@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e428e9a-a9a9-49e4-aea3-6895f4b8caf4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../office_test_django/office_test_django/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_django/office_test_django/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_word/test_word/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_word/test_word/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/request_test/hede_API.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="60" column="43" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="43" />
+            <state relative-caret-position="445">
+              <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -129,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,7 +140,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,16 +304,17 @@
       <workItem from="1586412774251" duration="21000" />
       <workItem from="1586498569286" duration="66000" />
       <workItem from="1586502051088" duration="14000" />
+      <workItem from="1586508025921" duration="53000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23706000" />
+    <option name="totallyTimeSpent" value="23759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="164" y="0" width="1754" height="1040" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15171193" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15348288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -376,7 +376,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/office_test$random_cn_name.coverage" NAME="random_cn_name Coverage Results" MODIFIED="1586239817764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public_random" />
-    <SUITE FILE_PATH="coverage/hede_interface_test$hede_API.coverage" NAME="hede_API Coverage Results" MODIFIED="1586498585768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/request_test" />
+    <SUITE FILE_PATH="coverage/hede_interface_test$hede_API.coverage" NAME="hede_API Coverage Results" MODIFIED="1586508033490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/request_test" />
     <SUITE FILE_PATH="coverage/office_test$hede_API.coverage" NAME="hede_API Coverage Results" MODIFIED="1586265417706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/request_test" />
     <SUITE FILE_PATH="coverage/office_test$random_ID_card.coverage" NAME="random_ID_card Coverage Results" MODIFIED="1586239711360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public_random" />
     <SUITE FILE_PATH="coverage/office_test$md5_hede.coverage" NAME="md5_hede Coverage Results" MODIFIED="1584714376248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/encryption" />
@@ -451,8 +451,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/request_test/hede_API.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="60" column="43" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="43" />
+        <state relative-caret-position="445">
+          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
         </state>
       </provider>
     </entry>
