@@ -1,0 +1,5 @@
+2020-04-16 18:42:35,005 -DXT-INFO-test_hede_case: ====== 【case_0001:创建保单】 ====== 
+2020-04-16 18:42:35,439 -DXT-INFO-hede_interface_http:接口 - 登录系统 - 请求成功！
+2020-04-16 18:42:35,688 -DXT-INFO-hede_interface_http:请求数据：http://123.57.15.148/web/a/forminfo/htFormInfo/save&{'id': '', 'policyInfo.id': '1232217095095058432', 'remarks': '自动化测试数据', 'status': '4', 'bpm.taskId': '', 'bpm.procInsId': '', 'bpm.activityId': 'undefined'}
+2020-04-16 18:42:35,689 -DXT-INFO-test_hede_case:返回数据:  {"result":"true","message":"保存工单主表成功！"}
+2020-04-16 18:42:35,689 -DXT-INFO-test_hede_case: --------- 测试结束 --------- 
