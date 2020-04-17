@@ -9,30 +9,31 @@ import configparser
 import unittest
 import xlrd
 
-
 from public.log import logger
-from testcores.hede_interface_http import hede_test
+from testcores.hede_http_create_baodan import http_create_bandan
+
+cf = configparser.ConfigParser()
+cf.read("api_setting.ini")
+login_url = cf.get("LoginUrl", "url")
+baoban_url = cf.get("BaoDanUrl", "url")
+file_path = cf.get("BaoDanFilePath", "file_path")
 
 
-class ActionHeDeTest(unittest.TestCase):
+class CraeteBaoDan(unittest.TestCase):
     # 测试前预设
     def setUp(self):
-        # cf = configparser.ConfigParser()
-        # cf.read("api_setting.ini")
-        # self.key = cf.get("HeDeTestInterface", "sign_key")
         self.verificationErrors = []
 
-    def action_login(self, case_id, case_name, login_data, url, data, assertion, *arge):
+    def action_login(self, case_id, case_name, login_data, baodan_data, assertion):
         logger.info(u" ====== 【" + case_id + u":" + case_name + u"】 ====== ")
-        action_page = hede_test(eval(login_data), url, eval(data))
+        action_page = http_create_bandan(login_url, eval(login_data), baoban_url, eval(baodan_data))
         logger.info(u"返回数据:  " + action_page.text)
         self.assertEqual(action_page.json()["message"], assertion, action_page.text)
 
     @staticmethod
-    def getTestFunc(case_id, case_name, login_data, url, data, assertion, *arge):
+    def getTestFunc(case_id, case_name, login_data, baodan_data, assertion):
         def func(self):
-            self.action_login(case_id, case_name, login_data, url, data, assertion)
-
+            self.action_login(case_id, case_name, login_data, baodan_data, assertion)
         return func
 
     # 测试结束后清理
@@ -42,14 +43,12 @@ class ActionHeDeTest(unittest.TestCase):
 
 
 def __TestCases():
-    cf = configparser.ConfigParser()
-    cf.read("api_setting.ini")
-    data = xlrd.open_workbook(cf.get("FilePath", "file_path"))
+    filedata = xlrd.open_workbook(file_path)
     # 通过索引顺序获取Excel表
-    table = data.sheets()[0]
+    table = filedata.sheets()[0]
     for args in range(1, table.nrows):
         txt = table.row_values(args)
-        setattr(ActionHeDeTest, 'test_hede_%s' % txt[1], ActionHeDeTest.getTestFunc(*txt))
+        setattr(CraeteBaoDan, 'test_hede_%s' % txt[1], CraeteBaoDan.getTestFunc(*txt))
 
 
 __TestCases()

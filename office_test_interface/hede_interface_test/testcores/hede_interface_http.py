@@ -6,35 +6,29 @@
 # @Time    : 2019/12/10
 import requests
 
-from public.log import logger
 
-
-def hede_test(login_data, url, data):
+def hede_test():
     """
-    和德创建保单
-    测试秘钥(secret)为：b0a44d2ac9bb4196b8977360554f91bb
-    正式秘钥(secret)为：6c6d55134dc74946aad0601cf1171808
-    测试地址：http://apitest.dxtmobile.com/insure/channelPolicy/save
-    正式地址：http://insure.hollardchina.com.cn/insure/channelPolicy/save
-    :return:
+    创建保单
     """
     s = requests.session()
     base_url_login = "http://123.57.15.148/web/a/login"
     header = {"Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"}
-    hede_data_login = dict(login_data)
+    hede_data_login = {"username": "0DCC1FB7100A1D8D31B3A55DFCC7DFA2",
+                       "password": "A1EAF07BB51B073BB923BD5BEB1AC8F8"}
     res_login = s.post(url=base_url_login, data=hede_data_login, headers=header, timeout=(5, 10))
-    if "超级管理员" in res_login.text:
-        logger.info("接口 - 登录系统 - 请求成功！")
+    # base_url = "http://123.57.15.148/web/a/bpm/bpmMyTask/listData?status=1"
+    # res_base = s.post(url=base_url, headers=header, timeout=(5, 10))
+    # for i in res_base.json()["list"]:
+    #     # id_list.append(i["id"])
+    #     dasta = ""
+    #     rea = s.post(url="http://123.57.15.148/web/a/htclaimsettlementform/htClaimSettlementForm/save",data=dasta, headers=header, timeout=(5, 10))
+    #     sb = rea.text
+    #     print(sb)
 
-        base_url_ibaodan = url
-        hede_data_ibaodan = dict(data)
-        res_ibaodan = s.post(url=base_url_ibaodan, data=hede_data_ibaodan, headers=header, timeout=(5, 10))
+    return res_login
 
-        logger.info("请求数据：{}&{}".format(base_url_ibaodan,hede_data_ibaodan))
-        return res_ibaodan
-    else:
-        logger.info("接口 - .../login - 请求失败！ 程序终止...")
-        return res_login
 
 if __name__ == '__main__':
     print(hede_test().text)
+

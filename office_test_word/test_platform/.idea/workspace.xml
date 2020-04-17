@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ba02786-f576-42d8-b89e-acc7a1293e9d" name="默认的" comment="" />
+    <list default="true" id="0ba02786-f576-42d8-b89e-acc7a1293e9d" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_update_liucheng.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/hede_http_create_baodan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/hede_http_update_liucheng.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/api_setting.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/api_setting.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/case_exec.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/case_exec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/data/test_hede_http.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/result/2020-04-16-16_46_09_result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/result/2020-04-16-18_42_35_result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/result/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_hede_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_create_baodan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/hede_interface_http.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/hede_interface_http.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platform_test/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../platform_test/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platform_test/.idea/test_platform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../platform_test/.idea/test_platform.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platform_test/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../platform_test/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platform_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../platform_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +58,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testcase/test_hede.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="210">
+              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+              <folding>
+                <element signature="e#46#55#0" expanded="true" />
+                <element signature="e#889#3111#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case_exec.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#47#62#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,6 +117,9 @@
       <replace>logger.info</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -108,17 +146,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="265" />
-    <option name="y" value="52" />
+    <option name="x" value="-15" />
+    <option name="y" value="40" />
     <option name="width" value="1413" />
     <option name="height" value="957" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,17 +174,24 @@
               <item name="test_platform" type="462c0819:PsiDirectoryNode" />
               <item name="result" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="test_platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_platform" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="D:\development\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../base" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -390,6 +435,7 @@
       <workItem from="1573610485817" duration="21705000" />
       <workItem from="1573696245855" duration="6214000" />
       <workItem from="1574404747944" duration="32000" />
+      <workItem from="1587115512444" duration="378000" />
     </task>
     <servers />
   </component>
@@ -426,17 +472,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81287000" />
+    <option name="totallyTimeSpent" value="81665000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="265" y="52" width="1413" height="957" extended-state="0" />
+    <frame x="-15" y="40" width="1413" height="957" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12638581" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33259425" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3830303" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42839807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39950982" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,7 +491,7 @@
       <window_info anchor="bottom" id="运行" order="7" sideWeight="0.49738562" weight="0.32807216" />
       <window_info anchor="bottom" id="Debug Logs" order="8" />
       <window_info anchor="bottom" id="调试" order="9" weight="0.32919955" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32894737" />
       <window_info anchor="bottom" id="Execute Anonymous" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.33700982" />
@@ -462,12 +509,12 @@
       <window_info anchor="right" id="SciView" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12490761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33259425" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3830303" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42839807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39950982" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -475,7 +522,7 @@
       <window_info anchor="bottom" id="运行" order="7" sideWeight="0.49738562" weight="0.32807216" />
       <window_info anchor="bottom" id="Debug Logs" order="8" />
       <window_info anchor="bottom" id="调试" order="9" weight="0.32919955" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32894737" />
       <window_info anchor="bottom" id="Execute Anonymous" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.33700982" />
@@ -508,7 +555,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/test_platform$case_exec.coverage" NAME="case_exec Coverage Results" MODIFIED="1573698225570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_platform$case_exec.coverage" NAME="case_exec Coverage Results" MODIFIED="1587115553473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test_platform$test_app.coverage" NAME="test_app Coverage Results" MODIFIED="1573697381056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/test_platform$Unittests_in_test_hede_py.coverage" NAME="Unittests in test_hede.py Coverage Results" MODIFIED="1573550586634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
   </component>
@@ -619,16 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case_exec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="e#47#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/result/log.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -672,10 +709,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/result/2019-11-14-10_23_45_result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/image/2017-04-06-16_50_57_登录.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case_exec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#47#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/test_hede.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="210">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="e#46#55#0" expanded="true" />
+            <element signature="e#889#3111#0" />
+          </folding>
         </state>
       </provider>
     </entry>
