@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faca7426-aa90-4512-b9d7-a8a7b4fd8dd8" name="Default Changelist" comment="" />
+    <list default="true" id="faca7426-aa90-4512-b9d7-a8a7b4fd8dd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_create_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_update_hepei.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_update_hepeizhuguan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_update_huiweishouhuo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_update_shouhuozhuguan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_update_weixiu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/http_create_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/http_update_hepei.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/http_update_hepeizhuguan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/http_update_huiweishouhuo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/http_update_shouhuozhuguan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/http_update_weixiu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/spider_dxt_com/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/spider_dxt_com/scrapy_dxt_qcc/scrapy_dxt_qcc/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../random_test_case/test_demo/Hedeone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_base/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_base/taobao_selemin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_base/taobao_test_req.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/api_setting.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/api_setting.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/case_exec.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/case_exec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/data/hede_http_create_baodan.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/data/hede_http_update_liucheng.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_create_baodan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_update_liucheng.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/hede_http_create_baodan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/hede_http_update_liucheng.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/hede_interface_http.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/hede_interface_http.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/retail_api_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/retail_api_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/retail_api_test/public/MD5_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/retail_api_test/public/MD5_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../random_test_case/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../random_test_case/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,24 +44,59 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app518_result_test.py">
+        <entry file="file://$PROJECT_DIR$/test_base/taobao_selemin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9537">
-              <caret line="293" column="20" selection-start-line="293" selection-start-column="20" selection-end-line="293" selection-end-column="20" />
+            <state relative-caret-position="990">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+              <folding>
+                <element signature="e#121#132#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app518_result.py">
+        <entry file="file://$PROJECT_DIR$/test_base/jiangjinjisuan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="262" column="21" selection-start-line="262" selection-start-column="21" selection-end-line="262" selection-end-column="21" />
+            <state relative-caret-position="-184" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/filestwo/Python/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20427">
+              <caret line="635" selection-start-line="635" selection-end-line="635" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/filestwo/Python/Lib/xml/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="13" column="5" selection-start-line="13" selection-end-line="13" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/filestwo/Python/Lib/site-packages/selenium/webdriver/common/by.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -47,23 +115,15 @@
       <list>
         <option value="$PROJECT_DIR$/app518_result_test.py" />
         <option value="$PROJECT_DIR$/app518_result.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/test_word.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/test_base/taobao_test_req.py" />
+        <option value="$PROJECT_DIR$/test_base/taobao_selemin.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="280" />
-    <option name="y" value="8" />
-    <option name="width" value="1610" />
+    <option name="x" value="180" />
+    <option name="y" value="13" />
+    <option name="width" value="1740" />
     <option name="height" value="1025" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -80,6 +140,11 @@
               <item name="test_word" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_word" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="test_word" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_word" type="462c0819:PsiDirectoryNode" />
+              <item name="test_base" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -89,10 +154,15 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../office_test_interface/spider_dxt_com" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\office_test_team\office_test_word\test_word\test_base" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -106,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.app518_result_test">
+  <component name="RunManager" selected="Python.taobao_selemin">
     <configuration name="app518_result" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_word" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,8 +221,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="taobao_selemin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test_word" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_base/taobao_selemin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="taobao_test_req" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test_word" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_base/taobao_test_req.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.taobao_selemin" />
+        <item itemvalue="Python.taobao_test_req" />
         <item itemvalue="Python.app518_result_test" />
         <item itemvalue="Python.app518_result" />
       </list>
@@ -173,22 +289,24 @@
       <workItem from="1586502330455" duration="1037000" />
       <workItem from="1586505595014" duration="198000" />
       <workItem from="1586507978945" duration="45000" />
+      <workItem from="1587520838186" duration="11773000" />
+      <workItem from="1587537661171" duration="644000" />
+      <workItem from="1591955380208" duration="347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2671000" />
+    <option name="totallyTimeSpent" value="15435000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="280" y="8" width="1610" height="1025" extended-state="0" />
-    <editor active="true" />
+    <frame x="180" y="13" width="1740" height="1025" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26258063" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25119048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34529147" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2410314" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -197,7 +315,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3295964" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -206,12 +324,12 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25612903" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26580647" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295964" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.9663677" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -246,20 +364,73 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/test_word$app518_result_test.coverage" NAME="app518_result_test Coverage Results" MODIFIED="1586505707494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test_word$app518_result.coverage" NAME="app518_result Coverage Results" MODIFIED="1586343175529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_word$taobao_selemin.coverage" NAME="taobao_selemin Coverage Results" MODIFIED="1587538124891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_base" />
+    <SUITE FILE_PATH="coverage/test_word$taobao_test_req.coverage" NAME="taobao_test_req Coverage Results" MODIFIED="1587526893251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_base" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test_base/chengfa_koujue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app518_result_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9537">
-          <caret line="293" column="20" selection-start-line="293" selection-start-column="20" selection-end-line="293" selection-end-column="20" />
+        <state relative-caret-position="99">
+          <caret line="350" selection-start-line="350" selection-end-line="350" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app518_result.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="262" column="21" selection-start-line="262" selection-start-column="21" selection-end-line="262" selection-end-column="21" />
+        <state relative-caret-position="660">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="67" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_base/taobao_test_req.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/filestwo/Python/Lib/xml/etree/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_base/taobao_selemin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="e#121#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/filestwo/Python/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20427">
+          <caret line="635" selection-start-line="635" selection-end-line="635" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/filestwo/Python/Lib/xml/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="5" selection-start-line="13" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/filestwo/Python/Lib/site-packages/selenium/webdriver/common/by.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_base/jiangjinjisuan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184" />
       </provider>
     </entry>
   </component>

@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a23da83-c496-4526-b840-698b7134405e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcases/test_create_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcases/test_update_hepei.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcases/test_update_hepeizhuguan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcases/test_update_huiweishouhuo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcases/test_update_shouhuozhuguan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcases/test_update_weixiu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcores/http_create_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcores/http_update_hepei.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcores/http_update_hepeizhuguan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcores/http_update_huiweishouhuo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcores/http_update_shouhuozhuguan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcores/http_update_weixiu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fubu_dxt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fubu_dxt/baidu_pt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fubu_dxt/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fubu_dxt/pyse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fubu_dxt/read_word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy_dxt_qcc/scrapy_dxt_qcc/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_word/random_test_case/test_demo/Hedeone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_word/test_word/test_base/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_word/test_word/test_base/taobao_selemin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_word/test_word/test_base/taobao_test_req.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hede_interface_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/api_setting.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../hede_interface_test/api_setting.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/case_exec.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hede_interface_test/case_exec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/data/hede_http_create_baodan.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/data/hede_http_update_liucheng.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/testcases/test_create_baodan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/testcases/test_update_liucheng.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/testcores/hede_http_create_baodan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/testcores/hede_http_update_liucheng.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/testcores/hede_interface_http.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hede_interface_test/testcores/hede_interface_http.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../retail_api_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../retail_api_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../retail_api_test/public/MD5_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/../retail_api_test/public/MD5_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_word/random_test_case/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_word/random_test_case/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_word/test_word/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_word/test_word/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/spiders/bosszhipin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="789">
+              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fubu_dxt/baidu_pt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fubu_dxt/pyse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="377" column="6" selection-start-line="377" selection-start-column="6" selection-end-line="377" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fubu_dxt/read_word.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="32" column="63" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="63" />
+              <folding>
+                <element signature="e#116#127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fubu_dxt/word_data/夜市摆地摊用什么收银软件和管理库存好/image1.jpeg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fubu_dxt/word_data/夜市摆地摊用什么收银软件和管理库存好/image2.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fubu_dxt/word_data/迎客进销存软文/image1.jpeg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fubu_dxt/word_data/迎客进销存软文/image2.jpeg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fubu_dxt/word_data/迎客进销存软文/image3.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="957">
+              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/scrapy_dxt_qcc/scrapy_dxt_qcc/pipelines.py" />
+        <option value="$PROJECT_DIR$/scrapy_dxt_qcc/scrapy_dxt_qcc/items.py" />
+        <option value="$PROJECT_DIR$/scrapy_dxt_qcc/scrapy_dxt_qcc/settings.py" />
+        <option value="$PROJECT_DIR$/scrapy_dxt_qcc/scrapy_dxt_qcc/spiders/qccspider.py" />
+        <option value="$PROJECT_DIR$/scrapy_dxt_qcc/scrapy_dxt_qcc/main.py" />
+        <option value="$PROJECT_DIR$/scrapy_dxt_tianyancha/scrapy_dxt_tianyancha/settings.py" />
+        <option value="$PROJECT_DIR$/scrapy_dxt_tianyancha/scrapy_dxt_tianyancha/pipelines.py" />
+        <option value="$PROJECT_DIR$/scrapy_dxt_qcc/scrapy_dxt_qcc/middlewares.py" />
+        <option value="$PROJECT_DIR$/scrapy_dxt_tianyancha/scrapy_dxt_tianyancha/middlewares.py" />
+        <option value="$PROJECT_DIR$/scrapy_dxt_tianyancha/scrapy_dxt_tianyancha/items.py" />
+        <option value="$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/middlewares.py" />
+        <option value="$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/items.py" />
+        <option value="$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/pipelines.py" />
+        <option value="$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/main.py" />
+        <option value="$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/settings.py" />
+        <option value="$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/spiders/bosszhipin.py" />
+        <option value="D:/filestwo/Python/Lib/site-packages/docx.py" />
+        <option value="$PROJECT_DIR$/fubu_dxt/word_data/read_word.py" />
+        <option value="$PROJECT_DIR$/fubu_dxt/pyse.py" />
+        <option value="$PROJECT_DIR$/fubu_dxt/baidu_pt.py" />
+        <option value="$PROJECT_DIR$/fubu_dxt/read_word.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="274" />
+    <option name="width" value="1646" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spider_dxt_com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider_dxt_com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider_dxt_com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider_dxt_com" type="462c0819:PsiDirectoryNode" />
+              <item name="fubu_dxt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider_dxt_com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider_dxt_com" type="462c0819:PsiDirectoryNode" />
+              <item name="fubu_dxt" type="462c0819:PsiDirectoryNode" />
+              <item name="word_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider_dxt_com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider_dxt_com" type="462c0819:PsiDirectoryNode" />
+              <item name="fubu_dxt" type="462c0819:PsiDirectoryNode" />
+              <item name="word_data" type="462c0819:PsiDirectoryNode" />
+              <item name="夜市摆地摊用什么收银软件和管理库存好" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider_dxt_com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider_dxt_com" type="462c0819:PsiDirectoryNode" />
+              <item name="fubu_dxt" type="462c0819:PsiDirectoryNode" />
+              <item name="word_data" type="462c0819:PsiDirectoryNode" />
+              <item name="迎客进销存软文" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fubu_dxt/word_data" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\office_test_team\office_test_interface\spider_dxt_com\fubu_dxt" />
+      <recent name="E:\office_test_team\office_test_interface\spider_dxt_com\fubu_dxt\word_data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\office_test_team\office_test_interface\spider_dxt_com\fubu_dxt\word_data" />
+      <recent name="E:\office_test_team\office_test_interface\spider_dxt_com\fubu_dxt" />
+      <recent name="E:\office_test_team\office_test_interface\scrapy_dxt_com\scrapy_dxt_BossRecruit\scrapy_dxt_BossRecruit" />
+      <recent name="E:\office_test_team\office_test_interface\scrapy_dxt_com\scrapy_dxt_qcc\scrapy_dxt_qcc" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.read_word (2)">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider_dxt_com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="read_word (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider_dxt_com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fubu_dxt/word_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\office_test_team\office_test_interface\spider_dxt_com\fubu_dxt\read_word.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="read_word (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider_dxt_com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fubu_dxt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fubu_dxt/read_word.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="read_word" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider_dxt_com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fubu_dxt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\office_test_team\office_test_interface\spider_dxt_com\fubu_dxt\read_word.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.read_word (2)" />
+        <item itemvalue="Python.read_word (1)" />
+        <item itemvalue="Python.read_word" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a23da83-c496-4526-b840-698b7134405e" name="Default Changelist" comment="" />
+      <created>1591842720902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591842720902</updated>
+      <workItem from="1591842722530" duration="1237000" />
+      <workItem from="1591844024291" duration="10790000" />
+      <workItem from="1591931586034" duration="1329000" />
+      <workItem from="1591955728471" duration="603000" />
+      <workItem from="1592039927913" duration="3527000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17486000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="274" y="0" width="1646" height="1040" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24590164" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3296582" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32855567" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.4244763" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39911798" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/spiders/bosszhipin.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spider_dxt_com$read_word__1_.coverage" NAME="read_word (1) Coverage Results" MODIFIED="1592041719468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fubu_dxt/word_data" />
+    <SUITE FILE_PATH="coverage/scrapy_dxt_com$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1591862836819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit" />
+    <SUITE FILE_PATH="coverage/spider_dxt_com$read_word.coverage" NAME="read_word Coverage Results" MODIFIED="1592040794891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fubu_dxt" />
+    <SUITE FILE_PATH="coverage/scrapy_dxt_com$main.coverage" NAME="main Coverage Results" MODIFIED="1591868359754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit" />
+    <SUITE FILE_PATH="coverage/spider_dxt_com$read_word__2_.coverage" NAME="read_word (2) Coverage Results" MODIFIED="1592043203204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fubu_dxt" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/filestwo/Python/Lib/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dxt_scrapy_qcc/dxt_scrapy_qcc/main.py" />
+    <entry file="file://$PROJECT_DIR$/dxt_scrapy_qcc/dxt_scrapy_qcc/settings.py" />
+    <entry file="file://$PROJECT_DIR$/dxt_scrapy_qcc/dxt_scrapy_qcc/pipelines.py" />
+    <entry file="file://$PROJECT_DIR$/dxt_scrapy_qcc/dxt_scrapy_qcc/middlewares.py" />
+    <entry file="file://$PROJECT_DIR$/dxt_scrapy_qcc/dxt_scrapy_qcc/items.py" />
+    <entry file="file://$PROJECT_DIR$/dxt_scrapy_qcc/dxt_scrapy_qcc/spiders/test_qichacha.py" />
+    <entry file="file://$PROJECT_DIR$/dxt_scrapy_qcc/dxt_scrapy_qcc/spiders/qccspider.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy_dxt_qcc/scrapy_dxt_qcc/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_dxt_tianyancha/scrapy_dxt_tianyancha/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_dxt_tianyancha/scrapy_dxt_tianyancha/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_dxt_tianyancha/scrapy_dxt_tianyancha/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-302">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="e#169#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_dxt_tianyancha/scrapy_dxt_tianyancha/spiders/tycha.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_dxt_qcc/scrapy_dxt_qcc/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_dxt_tianyancha/scrapy_dxt_tianyancha/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_dxt_qcc/scrapy_dxt_qcc/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="90" selection-start-line="90" selection-end-line="108" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_dxt_qcc/scrapy_dxt_qcc/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="106" selection-start-line="106" selection-end-line="126" selection-end-column="51" />
+          <folding>
+            <element signature="e#169#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="111" column="6" selection-start-line="111" selection-start-column="6" selection-end-line="111" selection-end-column="6" />
+          <folding>
+            <element signature="e#169#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_dxt_qcc/scrapy_dxt_qcc/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="21" column="19" selection-start-line="10" selection-start-column="4" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_dxt_qcc/scrapy_dxt_qcc/spiders/qccspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="28" column="36" selection-start-line="18" selection-start-column="16" selection-end-line="28" selection-end-column="36" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/filestwo/Python/Lib/site-packages/scrapy/utils/trackref.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/filestwo/Python/Lib/site-packages/scrapy/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3531">
+          <caret line="107" column="62" selection-start-line="107" selection-start-column="62" selection-end-line="107" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/spiders/bosszhipin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/filestwo/Python/Lib/site-packages/docx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/filestwo/Python/Lib/zipfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="1112" selection-start-line="1112" selection-end-line="1112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fubu_dxt/baidu_pt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fubu_dxt/pyse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="377" column="6" selection-start-line="377" selection-start-column="6" selection-end-line="377" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fubu_dxt/word_data/夜市摆地摊用什么收银软件和管理库存好/image1.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fubu_dxt/word_data/夜市摆地摊用什么收银软件和管理库存好/image2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fubu_dxt/word_data/迎客进销存软文/image1.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fubu_dxt/word_data/迎客进销存软文/image2.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fubu_dxt/word_data/迎客进销存软文/image3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fubu_dxt/read_word.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="32" column="63" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="63" />
+          <folding>
+            <element signature="e#116#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

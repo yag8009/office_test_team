@@ -2,14 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffeda44c-8e24-4ad3-8481-6f2b2a62308c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../office_test_django/office_test_django/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_django/office_test_django/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_create_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_update_hepei.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_update_hepeizhuguan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_update_huiweishouhuo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_update_shouhuozhuguan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_update_weixiu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/http_create_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/http_update_hepei.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/http_update_hepeizhuguan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/http_update_huiweishouhuo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/http_update_shouhuozhuguan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/http_update_weixiu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/spider_dxt_com/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_interface/spider_dxt_com/scrapy_dxt_qcc/scrapy_dxt_qcc/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_demo/Hedeone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_word/test_base/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_word/test_base/taobao_selemin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_word/test_base/taobao_test_req.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/request_test/hede_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/request_test/hede_API.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/random_test_case.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/random_test_case.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/api_setting.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/api_setting.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/case_exec.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/case_exec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/data/hede_http_create_baodan.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/data/hede_http_update_liucheng.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_create_baodan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcases/test_update_liucheng.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/hede_http_create_baodan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/hede_http_update_liucheng.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/hede_interface_http.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/hede_interface_test/testcores/hede_interface_http.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/retail_api_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/retail_api_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_interface/retail_api_test/public/MD5_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_interface/retail_api_test/public/MD5_tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_word/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test_word/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,13 +43,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_demo/testtxt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="237" column="18" lean-forward="true" selection-start-line="237" selection-start-column="18" selection-end-line="237" selection-end-column="18" />
+            <state relative-caret-position="9075">
+              <caret line="281" selection-start-line="281" selection-end-line="281" selection-end-column="26" />
               <folding>
                 <element signature="e#114#123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_demo/Hedeone.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+              <folding>
+                <element signature="e#114#169#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -34,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_demo/dijia.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
+            <state relative-caret-position="4389">
               <caret line="138" column="31" selection-start-line="138" selection-start-column="31" selection-end-line="138" selection-end-column="31" />
               <folding>
                 <element signature="e#112#125#0" expanded="true" />
@@ -83,12 +119,13 @@
         <option value="$PROJECT_DIR$/public_random/random_phone.py" />
         <option value="$PROJECT_DIR$/test_demo/dijia.py" />
         <option value="$PROJECT_DIR$/test_demo/testtxt.py" />
+        <option value="$PROJECT_DIR$/test_demo/Hedeone.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="210" />
-    <option name="y" value="15" />
+    <option name="x" value="394" />
+    <option name="y" value="16" />
     <option name="width" value="1536" />
     <option name="height" value="1040" />
   </component>
@@ -137,7 +174,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../office_test_interface/hede_interface_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../office_test_interface/scrapy_dxt_com" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -165,7 +202,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.random_num_digit">
+  <component name="RunManager" selected="Python.Hedeone">
+    <configuration name="Hedeone" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="random_test_case" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_demo/Hedeone.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="dijia" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="random_test_case" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,28 +239,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_demo/dijia.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="random_city" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="random_test_case" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public_random" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public_random/random_city.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,11 +315,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Hedeone" />
         <item itemvalue="Python.random_num_digit" />
         <item itemvalue="Python.testtxt" />
         <item itemvalue="Python.dijia" />
         <item itemvalue="Python.random_string" />
-        <item itemvalue="Python.random_city" />
       </list>
     </recent_temporary>
   </component>
@@ -320,17 +357,22 @@
       <workItem from="1582510581294" duration="2753000" />
       <workItem from="1584586909622" duration="449000" />
       <workItem from="1586412518600" duration="880000" />
+      <workItem from="1588049217074" duration="411000" />
+      <workItem from="1588056049314" duration="2436000" />
+      <workItem from="1588067255604" duration="33000" />
+      <workItem from="1589793281260" duration="678000" />
+      <workItem from="1591842641975" duration="77000" />
+      <workItem from="1591955352830" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78998000" />
+    <option name="totallyTimeSpent" value="82659000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="210" y="15" width="1536" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="394" y="16" width="1536" height="1040" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17615177" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19037941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -396,6 +438,7 @@
     <SUITE FILE_PATH="coverage/random_test_case$random_cn_name.coverage" NAME="random_cn_name Coverage Results" MODIFIED="1581437518568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public_random" />
     <SUITE FILE_PATH="coverage/random_test_case$random_city.coverage" NAME="random_city Coverage Results" MODIFIED="1581572750827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public_random" />
     <SUITE FILE_PATH="coverage/random_test_case$random_string.coverage" NAME="random_string Coverage Results" MODIFIED="1581993981915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public_random" />
+    <SUITE FILE_PATH="coverage/random_test_case$Hedeone.coverage" NAME="Hedeone Coverage Results" MODIFIED="1588067277912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_demo" />
     <SUITE FILE_PATH="coverage/random_test_case$testtxt.coverage" NAME="testtxt Coverage Results" MODIFIED="1582515091055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_demo" />
     <SUITE FILE_PATH="coverage/random_test_case$random_phone.coverage" NAME="random_phone Coverage Results" MODIFIED="1581568196360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public_random" />
     <SUITE FILE_PATH="coverage/random_test_case$random_ID_card.coverage" NAME="random_ID_card Coverage Results" MODIFIED="1581564671138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public_random" />
@@ -508,9 +551,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_demo/testtxt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9075">
+          <caret line="281" selection-start-line="281" selection-end-line="281" selection-end-column="26" />
+          <folding>
+            <element signature="e#114#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_demo/dijia.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
+        <state relative-caret-position="4389">
           <caret line="138" column="31" selection-start-line="138" selection-start-column="31" selection-end-line="138" selection-end-column="31" />
           <folding>
             <element signature="e#112#125#0" expanded="true" />
@@ -518,12 +571,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_demo/testtxt.py">
+    <entry file="file://$PROJECT_DIR$/test_demo/Hedeone.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="237" column="18" lean-forward="true" selection-start-line="237" selection-start-column="18" selection-end-line="237" selection-end-column="18" />
+        <state relative-caret-position="313">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
           <folding>
-            <element signature="e#114#123#0" expanded="true" />
+            <element signature="e#114#169#0" expanded="true" />
           </folding>
         </state>
       </provider>

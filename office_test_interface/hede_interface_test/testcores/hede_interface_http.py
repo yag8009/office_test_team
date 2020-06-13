@@ -17,14 +17,16 @@ def hede_test():
     hede_data_login = {"username": "0DCC1FB7100A1D8D31B3A55DFCC7DFA2",
                        "password": "A1EAF07BB51B073BB923BD5BEB1AC8F8"}
     res_login = s.post(url=base_url_login, data=hede_data_login, headers=header, timeout=(5, 10))
-    # base_url = "http://123.57.15.148/web/a/bpm/bpmMyTask/listData?status=1"
-    # res_base = s.post(url=base_url, headers=header, timeout=(5, 10))
-    # for i in res_base.json()["list"]:
-    #     # id_list.append(i["id"])
-    #     dasta = ""
-    #     rea = s.post(url="http://123.57.15.148/web/a/htclaimsettlementform/htClaimSettlementForm/save",data=dasta, headers=header, timeout=(5, 10))
-    #     sb = rea.text
-    #     print(sb)
+    base_url = "http://123.57.15.148/web/a/bpm/bpmMyTask/listData?status=1"
+    res_base = s.post(url=base_url, headers=header, timeout=(5, 10))
+    for i in res_base.json()["list"]:
+        # id_list.append(i["id"])
+        # dasta = ""
+        # rea = s.post(url="http://123.57.15.148/web/a/htclaimsettlementform/htClaimSettlementForm/save",data=dasta, headers=header, timeout=(5, 10))
+        # sb = rea.text
+        print('i["id"]:'+i["id"])
+        print('i["procIns"]["id"]:'+i["procIns"]["id"])
+        print('i["procIns"]["bizKey"]:'+i["procIns"]["bizKey"])
 
     return res_login
 

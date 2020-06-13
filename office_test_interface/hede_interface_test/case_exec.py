@@ -5,18 +5,26 @@ import unittest
 import time
 from public import HTMLTestRunner_PY3
 from public.tools_class import get_case_list_from_cls
+from testcases.test_create_system import test_create_system
+from testcases.test_update_hepei import test_update_hepei
+from testcases.test_update_hepeizhuguan import test_update_hepeizhuguan
+from testcases.test_update_huiweishouhuo import test_update_huiweishouhuo
+from testcases.test_update_shouhuozhuguan import test_update_shouhuozhuguan
+from testcases.test_update_weixiu import test_update_weixiu
 
 
 # 装载测试用例interface
-from testcases.test_create_baodan import CraeteBaoDan
-from testcases.test_update_liucheng import UpdateLiuChengTest
-
 test_case_list = get_case_list_from_cls([
     # todo 在项目里面再定义别的测试类，然后装载进来即可
     # 登录单元测试
 
-    CraeteBaoDan,
-    # UpdateLiuChengTest,
+    # test_create_system,
+    # test_update_hepei,
+    test_update_weixiu,
+    # test_update_hepeizhuguan,
+    # test_update_huiweishouhuo,
+    # test_update_shouhuozhuguan,
+    # test_update_hepeizhuguan,
 
 ])
 

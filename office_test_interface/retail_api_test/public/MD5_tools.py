@@ -11,7 +11,7 @@ def MD5_tool(md5data):
     return sign
 
 if __name__ == '__main__':
-    data = "brand=华为&channelType=227&city=北京&color=白&imei=123456789012345&model=mate9&name=张三&phone=17066668888&price=3999&saleman=售货员A&store=旗舰店&timestamp=1496566760204&key=b0a44d2ac9bb4196b8977360554f91bb"
+    data = "brand=华为&channelType=382&city=北京&color=亮黑色&idcard=752861198612236904&imei=119520993541194&model=mate30&name=宋泉震&phone=13717770521&price=4999&saleman=售货员A&store=旗舰店&timestamp=1587931852268&key=b0a44d2ac9bb4196b8977360554f91bb"
     md = MD5_tool(data).upper()
     print(md)
     timestamp = int(time.time()*1000)

@@ -2,22 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5e8c48-aa3f-4534-90fa-971f458012fb" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/../hede_interface_test/data/test_hede_api.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hede_interface_test/request_test/hede_houtai.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/random_ID_card.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/random_cn_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/random_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/random_phone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/random_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcases/test_create_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcases/test_update_hepei.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcases/test_update_hepeizhuguan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcases/test_update_huiweishouhuo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcases/test_update_shouhuozhuguan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcases/test_update_weixiu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcores/http_create_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcores/http_update_hepei.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcores/http_update_hepeizhuguan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcores/http_update_huiweishouhuo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcores/http_update_shouhuozhuguan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hede_interface_test/testcores/http_update_weixiu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_word/test_word/test_base/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_word/test_word/test_base/taobao_selemin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../office_test_word/test_word/test_base/taobao_test_req.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hede_interface_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hede_interface_test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hede_interface_test/public_random/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hede_interface_test/public_random/random_ID_card.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hede_interface_test/public_random/random_cn_name.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hede_interface_test/public_random/random_number.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hede_interface_test/public_random/random_phone.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hede_interface_test/public_random/random_string.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/api_setting.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../hede_interface_test/api_setting.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/case_exec.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hede_interface_test/case_exec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/data/hede_http_create_baodan.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/data/hede_http_update_liucheng.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/testcases/test_create_baodan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/testcases/test_update_liucheng.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/testcores/hede_http_create_baodan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/testcores/hede_http_update_liucheng.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/testcores/hede_interface_http.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hede_interface_test/testcores/hede_interface_http.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/MD5_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/MD5_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_word/test_word/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../office_test_word/test_word/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcases/test_hede_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="-165">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding>
                 <element signature="e#123#142#0" expanded="true" />
               </folding>
@@ -46,13 +58,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcores/hede_interface_API.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="86">
               <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding>
                 <element signature="e#116#127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testdemo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
+              <folding>
+                <element signature="e#116#127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/MD5_tools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="13" column="236" selection-start-line="13" selection-start-column="236" selection-end-line="13" selection-end-column="236" />
+              <folding>
+                <element signature="e#46#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,16 +131,16 @@
         <option value="$PROJECT_DIR$/testcases/test_action_case.py" />
         <option value="$PROJECT_DIR$/testcases/test_hede_case.py" />
         <option value="$PROJECT_DIR$/testcases/test_yinke_case.py" />
-        <option value="$PROJECT_DIR$/public/MD5_tools.py" />
         <option value="$PROJECT_DIR$/testcores/hede_interface_API.py" />
         <option value="$PROJECT_DIR$/testdemo.py" />
         <option value="$PROJECT_DIR$/case_exec.py" />
+        <option value="$PROJECT_DIR$/public/MD5_tools.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="163" />
-    <option name="y" value="41" />
+    <option name="x" value="229" />
+    <option name="y" value="32" />
     <option name="width" value="1566" />
     <option name="height" value="1040" />
   </component>
@@ -114,6 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,17 +173,26 @@
               <item name="retail_api_test" type="462c0819:PsiDirectoryNode" />
               <item name="result" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="retail_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="retail_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="retail_api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="retail_api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="testcores" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hede_interface_test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -179,7 +225,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.case_exec">
+  <component name="RunManager" selected="Python.MD5_tools">
+    <configuration name="MD5_tools" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="retail_api_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/MD5_tools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="case_exec" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="retail_api_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,28 +284,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/core_xlsx.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="excel_xlsx" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="retail_api_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/excel_xlsx.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -317,17 +363,17 @@
     <list>
       <item itemvalue="Python.case_exec" />
       <item itemvalue="Python.random_case" />
-      <item itemvalue="Python.excel_xlsx" />
       <item itemvalue="Python.core_xlsx" />
       <item itemvalue="Python.testdemo" />
+      <item itemvalue="Python.MD5_tools" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MD5_tools" />
         <item itemvalue="Python.case_exec" />
         <item itemvalue="Python.testdemo" />
         <item itemvalue="Python.random_case" />
         <item itemvalue="Python.core_xlsx" />
-        <item itemvalue="Python.excel_xlsx" />
       </list>
     </recent_temporary>
   </component>
@@ -350,6 +396,8 @@
       <workItem from="1577815503938" duration="38000" />
       <workItem from="1584511443670" duration="1068000" />
       <workItem from="1587023958408" duration="517000" />
+      <workItem from="1588042543569" duration="31000" />
+      <workItem from="1588042596136" duration="1822000" />
     </task>
     <servers />
   </component>
@@ -359,7 +407,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33291000" />
+    <option name="totallyTimeSpent" value="35144000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -371,15 +419,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="163" y="41" width="1566" height="1040" extended-state="0" />
+    <frame x="229" y="32" width="1566" height="1040" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.21447544" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.21978752" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50183153" side_tool="true" weight="0.20119523" />
       <window_info anchor="bottom" id="找到" order="0" weight="0.32929516" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32929516" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.9669604" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.29988974" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39977974" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -407,6 +455,7 @@
     <SUITE FILE_PATH="coverage/retail_api_test$Unittests_for_test_action_case_ActionTest.coverage" NAME="Unittests for test_action_case.ActionTest Coverage Results" MODIFIED="1575968199458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
     <SUITE FILE_PATH="coverage/retail_api_test$TestDome.coverage" NAME="TestDome Coverage Results" MODIFIED="1576044823591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/retail_api_test$case_exec.coverage" NAME="case_exec Coverage Results" MODIFIED="1577343624561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/retail_api_test$MD5_tools.coverage" NAME="MD5_tools Coverage Results" MODIFIED="1588047740539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/retail_api_test$testdemo.coverage" NAME="testdemo Coverage Results" MODIFIED="1576568388555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/retail_api_test$excel_xlsx.coverage" NAME="excel_xlsx Coverage Results" MODIFIED="1576045493187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/retail_api_test$test_demo.coverage" NAME="test_demo Coverage Results" MODIFIED="1575552740629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
@@ -480,30 +529,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/MD5_tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#46#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testcores/yinke_interface_API.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
           <caret line="26" column="17" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testdemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
-          <folding>
-            <element signature="e#116#127#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -546,8 +575,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testcases/test_hede_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="-165">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
             <element signature="e#123#142#0" expanded="true" />
           </folding>
@@ -560,6 +589,26 @@
           <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding>
             <element signature="e#116#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
+          <folding>
+            <element signature="e#116#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/MD5_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="236" selection-start-line="13" selection-start-column="236" selection-end-line="13" selection-end-column="236" />
+          <folding>
+            <element signature="e#46#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
