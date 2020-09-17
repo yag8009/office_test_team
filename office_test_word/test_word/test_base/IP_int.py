@@ -15,7 +15,7 @@ class IP_int:
     def __init__(self, ips):
         self.ip = ips.split(".")
 
-    def int_ip(self):
+    def intip(self):
         try:
             ip_1 = bin(int(self.ip[0]))[2:]
             ip_2 = bin(int(self.ip[1]))[2:]
@@ -30,4 +30,4 @@ class IP_int:
 if __name__ == '__main__':
     my_input = "192.168.1.100"
     my_input.strip(" ")
-    print("转换为整数：", IP_int(my_input).int_ip())
+    print("转换为整数：", IP_int(my_input).intip())

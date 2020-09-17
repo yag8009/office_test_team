@@ -8,7 +8,7 @@
 # 随机选一个市
 import random
 
-from city_menu import city_menu
+from public_random.city_menu import city_menu
 
 
 def random_city():
