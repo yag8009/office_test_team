@@ -17,6 +17,10 @@ def api_test(url, datas, key):
     :param key: 
     :return: r.json()
     """
+    # 排除值为的空信息
+    for k in list(datas.keys()):
+        if not datas[k]:
+            del datas[k]
     timestamp = int(time.time())
     data = dict(datas)
     data.update({"timestamp": timestamp})

@@ -2,15 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1e4aaff-24aa-43be-8bd0-6f0b061b8bcb" name="默认" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bases/Base_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bases/Base_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bases/Base_http.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bases/Base_http.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bases/Base_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bases/Base_log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bases/Base_mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bases/Base_mail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bases/Base_yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bases/Base_yaml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cases/run_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cases/run_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config_data/testcases1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tasks/APITest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/APITest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/fanbu_dxt/baidu_pt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/fanbu_dxt/jianshu_pt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/fanbu_dxt/jinritoutiao_pt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/fanbu_dxt/read_word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/spider_dxt_BeautifulSoup/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/spider_dxt_BeautifulSoup/baidu_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/spider_dxt_BeautifulSoup/bosszhipin_sipder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/spider_dxt_BeautifulSoup/chinahr_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/spider_dxt_BeautifulSoup/dxt_xinliang_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/spider_dxt_BeautifulSoup/header_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/spider_dxt_BeautifulSoup/proxy_IP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/testdome/DemoYear.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/testdome/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/testdome/baidu_spider_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/testdome/manxiao_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/testdome/testDemoYear.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/testdome/testbae.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider_dxt_com/testdome/yinhuashu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hede_interface_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hede_interface_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../retail_api_test/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../retail_api_test/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../retail_api_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../retail_api_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spider_dxt_com/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/fubu_dxt/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spider_dxt_com/fanbu_dxt/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/fubu_dxt/baidu_pt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/fubu_dxt/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../spider_dxt_com/fanbu_dxt/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/fubu_dxt/pyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spider_dxt_com/fanbu_dxt/pyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/fubu_dxt/read_word.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/fubu_dxt/word_data/夜市摆地摊用什么收银软件和管理库存好.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../spider_dxt_com/fanbu_dxt/word_data/夜市摆地摊用什么收银软件和管理库存好.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/fubu_dxt/word_data/夜市摆地摊用什么收银软件和管理库存好/image1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/fubu_dxt/word_data/夜市摆地摊用什么收银软件和管理库存好/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/fubu_dxt/word_data/迎客进销存软文.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/fubu_dxt/word_data/迎客进销存软文/image1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/fubu_dxt/word_data/迎客进销存软文/image2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/fubu_dxt/word_data/迎客进销存软文/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/scrapy_dxt_BossRecruit/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/scrapy_dxt_BossRecruit/scrapy_dxt_BossRecruit/spiders/bosszhipin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/scrapy_dxt_tianyancha/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/scrapy_dxt_tianyancha/scrapy_dxt_tianyancha/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/scrapy_dxt_tianyancha/scrapy_dxt_tianyancha/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/scrapy_dxt_tianyancha/scrapy_dxt_tianyancha/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/scrapy_dxt_tianyancha/scrapy_dxt_tianyancha/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/scrapy_dxt_tianyancha/scrapy_dxt_tianyancha/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/scrapy_dxt_tianyancha/scrapy_dxt_tianyancha/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_dxt_com/scrapy_dxt_tianyancha/scrapy_dxt_tianyancha/spiders/tycha.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../office_test_word/Image_distinguish/Image2Text/微信图片_20181120183722.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,57 +78,9 @@
     <SUITE FILE_PATH="coverage/NewRetail_Interface_Platform$Base_yaml.coverage" NAME="Base_yaml Coverage Results" MODIFIED="1545723728725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bases" />
     <SUITE FILE_PATH="coverage/NewRetail_Interface_Platform$Base_http.coverage" NAME="Base_http Coverage Results" MODIFIED="1545730901244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bases" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1262022791">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.42" value="1" />
-          <entry key="project.open.time.70" value="1" />
-          <entry key="project.open.time.71" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="html" value="1" />
-          <entry key="log" value="8" />
-          <entry key="py" value="64" />
-          <entry key="txt" value="1" />
-          <entry key="yaml" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="1" />
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="64" />
-          <entry key="YAML" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Python Console" value="28" />
-          <entry key="log" value="8" />
-          <entry key="py" value="3054" />
-          <entry key="yaml" value="160" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="3082" />
-          <entry key="YAML" value="160" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Config_data/login.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="602">
@@ -97,21 +92,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bases/Base_mail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            <state relative-caret-position="858">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
               <folding>
                 <element signature="e#186#200#0" expanded="true" />
-                <marker date="1545733493755" expanded="true" signature="375:2835" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tasks/APITest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="62">
-              <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+              <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -119,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cases/run_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="858">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#98#109#0" expanded="true" />
               </folding>
@@ -131,12 +125,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bases/Base_http.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+            <state relative-caret-position="1014">
+              <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
               <folding>
                 <element signature="e#95#110#0" expanded="true" />
-                <marker date="1545730901237" expanded="true" signature="256:853" ph="..." />
-                <marker date="1545730901237" expanded="true" signature="961:966" ph="..." />
               </folding>
             </state>
           </provider>
@@ -150,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bases/Base_log.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+            <state relative-caret-position="528">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -182,7 +174,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -218,18 +210,12 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="539" />
     <option name="width" value="1397" />
     <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -237,7 +223,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,11 +254,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../office_test_word/random_test_case" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -431,7 +418,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
@@ -482,6 +469,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545050468893</updated>
+      <workItem from="1596433635909" duration="57000" />
     </task>
     <servers />
   </component>
@@ -517,6 +505,9 @@
       <configuration name="Unittests in APITest.py" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="57000" />
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -527,11 +518,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="539" y="0" width="1397" height="1040" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12686567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17950636" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="SOQL Query" />
+      <window_info anchor="bottom" id="Log Analyzer" />
+      <window_info anchor="bottom" id="Anonymous Apex" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296582" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.30585682" />
@@ -583,9 +577,6 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -597,16 +588,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="25">
-            <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://D:/Python35/Lib/unittest/loader.py" />
     <entry file="file://$PROJECT_DIR$/Result/2018-12-17-22_03_14_result.html" />
     <entry file="file://$PROJECT_DIR$/Bases/logging.log" />
@@ -643,20 +625,8 @@
     <entry file="file://$PROJECT_DIR$/Bases/Base_random.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/580420272/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="3574" column="8" selection-start-line="3574" selection-start-column="8" selection-end-line="3574" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/filestwo/Python35/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/580420272/builtins.py" />
+    <entry file="file://D:/filestwo/Python35/Lib/codecs.py" />
     <entry file="file://$PROJECT_DIR$/Bases/Base_assert.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -686,60 +656,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Config_data/data.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tasks/APITest.py">
+    <entry file="file://$PROJECT_DIR$/Config_data/login.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        <state relative-caret-position="602">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bases/Base_http.py">
+    <entry file="file://$PROJECT_DIR$/Bases/Base_mail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+        <state relative-caret-position="858">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding>
-            <element signature="e#95#110#0" expanded="true" />
-            <marker date="1545730901237" expanded="true" signature="256:853" ph="..." />
-            <marker date="1545730901237" expanded="true" signature="961:966" ph="..." />
+            <element signature="e#186#200#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bases/Base_log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cases/run_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="858">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#98#109#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bases/Base_mail.py">
+    <entry file="file://$PROJECT_DIR$/Config_data/data.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bases/Base_log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        <state relative-caret-position="528">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bases/Base_http.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
           <folding>
-            <element signature="e#186#200#0" expanded="true" />
-            <marker date="1545733493755" expanded="true" signature="375:2835" ph="..." />
+            <element signature="e#95#110#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Config_data/login.yaml">
+    <entry file="file://$PROJECT_DIR$/Tasks/APITest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="62">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
         </state>
       </provider>
     </entry>

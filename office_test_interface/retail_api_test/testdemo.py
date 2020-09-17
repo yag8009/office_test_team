@@ -16,7 +16,7 @@ def testdemo():
     timestamp = int(time.time())
     data = {"username": "cn0101", "password": "123456", "mobileLogin": "1","method": "/login"}
     key = "KBmTWW0nvtC298rJ"
-    url = "http://123.196.123.106/svc-xls/a/login?data="
+    url = "http://116.196.102.10/svc-xls/a/login?data="
     data.update({"timestamp": timestamp})
     data_list = sorted(data.items(), key=lambda e: e[0], reverse=False)
     data_str = "&".join(u"{}={}".format(k, v) for k, v in data_list) + '&' + key
