@@ -1,0 +1,11 @@
+{% extends 'baseuser.html' %}
+{% load staticfiles %}
+{% block title %}登录{% endblock %}
+{% block content %}
+		{% if request.session.is_active %}
+    <h1>{{ request.session.user }}！欢迎回来！</h1>
+            <li><a href="/logout/">登出</a></li>
+    {% else %}
+    <h1>你尚未登录，只能访问公开内容！</h1>
+    {% endif %}
+{% endblock %}
