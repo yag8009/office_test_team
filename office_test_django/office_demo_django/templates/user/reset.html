@@ -1,11 +1,11 @@
 {% extends 'baseuser.html' %}
-{% load staticfiles %}
+{% load static %}
 {% block title %}重置密码{% endblock %}
 {% block content %}
 					<div class="card fat">
 						<div class="card-body">
 							<h4 class="card-title">重置密码</h4>
-							<form method="GET">{% csrf_token %}
+							<form method="POST">{% csrf_token %}
 							 
 								<div class="form-group">
 									<label for="new-password">新密码</label>
