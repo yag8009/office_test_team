@@ -1,5 +1,5 @@
-import hashlib
 
+from django.contrib.auth.hashers import make_password
 from django.contrib import auth
 from django.contrib.auth.models import User
 from django.shortcuts import render
@@ -15,10 +15,8 @@ def login(request):
         username = request.POST.get('username')        # 获取前端发送过来的账号
         password = request.POST.get('password')        # 获取前端发过来的密码
 
-        # 使用hashlib md5来给password进行加密
-        md5 = hashlib.md5()
-        md5.update(password.encode('utf-8'))
-        password = md5.hexdigest()
+        #系统自带加密
+        password = make_password(password, None, 'pbkdf2_sha256')
 
         # 判断获取到的账号和密码与数据库比对 是否一致
         if auth.authenticate(username=username, password=password):
@@ -35,10 +33,13 @@ def forgot(request):
 
 def register(request):
     """ 注册页面  """
-    pass
+    return render(request, "user/register.html")
 
 
 def logout(request):
     """ 退出  """
     auth.logout(request)
     return redirect("/index/")
+
+
+

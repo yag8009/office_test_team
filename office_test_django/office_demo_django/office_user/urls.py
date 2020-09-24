@@ -9,7 +9,8 @@ urlpatterns = [
     # path('', views.index),
     path('index/', views.login),
     path('register/', views.register),
-    path('', views.login),
+    path('', views.register),
     path('forgot/', views.forgot),
     path('logout/', views.logout),
 ]
+

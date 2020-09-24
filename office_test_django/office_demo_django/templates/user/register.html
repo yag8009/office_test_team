@@ -8,8 +8,7 @@
 							<form method="POST">{% csrf_token %}
 							 
 								<div class="form-group">
-									<label for="name">名字</label>
-									<input id="name" type="text" class="form-control" name="name" required autofocus>
+									{{register_form.username.attrs}}
 								</div>
 
 								<div class="form-group">
