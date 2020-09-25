@@ -5,10 +5,11 @@
 					<div class="card fat">
 						<div class="card-body">
 							<h4 class="card-title">注册</h4>
-							<form method="POST">{% csrf_token %}
+							<form method="POST">
+							{% csrf_token %}
 							 
 								<div class="form-group">
-									{{register_form.username.attrs}}
+									{{ form.as_p }}
 								</div>
 
 								<div class="form-group">

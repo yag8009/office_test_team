@@ -7,7 +7,7 @@ from office_user import views
 app_name = "office_user"
 urlpatterns = [
     # path('', views.index),
-    path('index/', views.login),
+    path('index/', views.login, name='login'),
     path('register/', views.register),
     path('', views.register),
     path('forgot/', views.forgot),

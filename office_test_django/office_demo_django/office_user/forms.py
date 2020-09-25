@@ -1,5 +1,5 @@
 from django import forms
-from ..models.user_model import Users
+from django.contrib.auth.models import User
 #引入密码模块
 from django.contrib.auth.hashers import make_password
 
@@ -18,7 +18,7 @@ class RegisterForm(forms.Form):
                 raise forms.ValidationError(u'两次密码输入不一致，请重新输入')
 
     def save(self):
-        user = Users()
+        user = User()
         user.user_name = self.cleaned_data['user_name']
         user.email = self.cleaned_data['email']
         #密码更改处

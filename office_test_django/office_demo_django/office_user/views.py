@@ -6,8 +6,28 @@ from django.shortcuts import render
 
 # Create your views here.
 
+from django.urls import reverse_lazy
+from django.views.generic.edit import FormView
+
+
+from office_user.forms import RegisterForm
+
+
+class RegisterView(FormView):
+    template_name = 'user/register.html'
+    form_class = RegisterForm
+    success_url = reverse_lazy('login')
+
+    def form_valid(self, form):
+        form.save()
+        return super(RegisterView, self).form_valid(form)
+
 
 def login(request):
+    context = {}
+    return render(request, 'user/login.html', context)
+
+# def login(request):
     """ 登录页面  """
     if request.method == 'GET':        # 判断发送的请求是否是get请求
         return render(request, "user/login.html")        # 是的话返回登陆页面
@@ -33,7 +53,8 @@ def forgot(request):
 
 def register(request):
     """ 注册页面  """
-    return render(request, "user/register.html")
+    form = RegisterForm
+    return render(request, "user/register.html", locals())
 
 
 def logout(request):
