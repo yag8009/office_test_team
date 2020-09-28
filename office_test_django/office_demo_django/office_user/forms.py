@@ -4,10 +4,14 @@ from django.contrib.auth.models import User
 from django.contrib.auth.hashers import make_password
 
 class RegisterForm(forms.Form):
-    user_name = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': '用户名', 'required': True}))
-    email = forms.CharField(widget=forms.EmailInput(attrs={'class': 'form-control', 'placeholder': '邮箱', 'required': True}))
-    password = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': '密码', 'required': True}))
-    confirm_password = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': '确认密码', 'required': True}))
+    user_name = forms.CharField(label='用户名', widget=forms.TextInput(
+        attrs={'class': 'form-control', 'placeholder': '用户名', 'required': True}))
+    email = forms.CharField(label='邮箱', widget=forms.EmailInput(
+        attrs={'class': 'form-control', 'placeholder': '邮箱', 'required': True}))
+    password = forms.CharField(label='密码', widget=forms.PasswordInput(attrs={
+                               'class': 'form-control', 'placeholder': '密码', 'required': True}))
+    confirm_password = forms.CharField(label='确认密码', widget=forms.PasswordInput(attrs={
+                                       'class': 'form-control', 'placeholder': '确认密码', 'required': True}))
 
     def clean(self):
         cleaned_data = super(RegisterForm, self).clean()

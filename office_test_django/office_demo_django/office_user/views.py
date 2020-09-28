@@ -6,21 +6,8 @@ from django.shortcuts import render
 
 # Create your views here.
 
-from django.urls import reverse_lazy
-from django.views.generic.edit import FormView
-
 
 from office_user.forms import RegisterForm
-
-
-class RegisterView(FormView):
-    template_name = 'user/register.html'
-    form_class = RegisterForm
-    success_url = reverse_lazy('login')
-
-    def form_valid(self, form):
-        form.save()
-        return super(RegisterView, self).form_valid(form)
 
 
 def login(request):
@@ -53,8 +40,25 @@ def forgot(request):
 
 def register(request):
     """ 注册页面  """
-    form = RegisterForm
-    return render(request, "user/register.html", locals())
+    if request.method == "GET":
+        froms = RegisterForm()
+        return render(request, "user/register.html", {'froms': froms})
+    elif request.method == "POST":
+        data = request.POST
+        froms = RegisterForm(data)
+        if froms.is_valid():
+            user_obj = froms.cleaned_data
+            username = user_obj.get('user_name')
+            password = user_obj.get('password')
+            if not User.objects.filter(username=username).exists():
+                new_obj = User.objects.create_user(username=username, password=password)
+                return redirect("user/login.html")
+            else:
+                froms.add_error('user_name', '用户名已存在！')
+                return render(request, "user/register.html", {'froms': froms})
+        else:
+            return render(request, "user/register.html", {'froms': froms})
+
 
 
 def logout(request):
