@@ -9,6 +9,9 @@
 							{% csrf_token %}
 							 
 								<div class="form-group">
+								    {% if error %}
+								    <div class="alert alert-warning">{{ error }}</div>
+								    {% endif %}
 									{{ froms.as_p }}
 								</div>
 
@@ -36,7 +39,7 @@
 									</button>
 								</div>
 								<div class="margin-top20 text-center">
-									已经有账户了吗？ <a href="index.html">登录</a>
+									已经有账户了吗？ <a href="/login/">登录</a>
 								</div>
 							</form>
 						</div>
