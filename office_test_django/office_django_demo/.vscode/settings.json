@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "E:\\office_test_team\\office_test_django\\office_django_demo\\venv\\Scripts\\python.exe",
+    "python.linting.pylintPath": "pylint",
+    "python.linting.pylintArgs": [
+        "--load-plugins", "pylint_django"
+    ],
+    "python.formatting.autopep8Path": "autopep8"
+}

@@ -1,0 +1,1 @@
+default_app_config = "office_user.apps.OfficeUserConfig"

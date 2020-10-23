@@ -30,8 +30,14 @@ class Pyse(object):
         if browser == "firefox" or browser == "ff":
             br = webdriver.Firefox()
         elif browser == "chrome":
-            executable_path = r"./lib/chromedriver.exe"
-            br = webdriver.Chrome(executable_path)
+            executable_paths = r"./lib/chromedriver.exe"
+
+            chrome_options = webdriver.ChromeOptions()
+            chrome_options.add_experimental_option('useAutomationExtension', False)
+            chrome_options.add_experimental_option("excludeSwitches", ['enable-automation'])
+            # chrome_options.add_experimental_option("debuggerAddress","127.0.0.1:9222")
+
+            br = webdriver.Chrome(executable_path=executable_paths,chrome_options=chrome_options)
         elif browser == "internet explorer" or browser == "ie":
             br = webdriver.Ie()
         elif browser == "opera":

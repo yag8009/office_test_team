@@ -1,0 +1,5 @@
+{
+    "files.autoSave": "afterDelay",
+    "python.pythonPath": "E:/BookManage-master/venv/scripts/python.exe",
+    "python.formatting.autopep8Path": "autopep8",
+}

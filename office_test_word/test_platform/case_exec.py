@@ -4,19 +4,19 @@
 import unittest
 import time
 
-from public import HTMLTestRunner
+from public import HTMLTestRunner_PY3
 
 #定义单元测试容器
 # from testcase import SearchBaidu
-from testcase.test_hede import HeDe
-# from testcase.test_login_case import LoginTest
+# from testcase.test_hede import HeDe
+from testcase.test_login_case import LoginTest
 
 testunit = unittest.TestSuite()
 
 
 #将测试用例加入测试容器中
 # testunit.addTest(unittest.makeSuite(SearchBaidu.Baidu))
-testunit.addTest(unittest.makeSuite(HeDe))
+testunit.addTest(unittest.makeSuite(LoginTest))
 
 #获取系统当前时间
 now = time.strftime('%Y-%m-%d-%H_%M_%S', time.localtime(time.time()))
@@ -26,7 +26,7 @@ filename = "./result/"+now+"_result.html"
 fp = open(filename, 'wb')
 
 #定义测试报告
-runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=u'自动化测试报告', description=u'用例执行情况：')
+runner = HTMLTestRunner_PY3.HTMLTestRunner(stream=fp, title=u'自动化测试报告', description=u'用例执行情况：')
 
 #运行测试用例
 runner.run(testunit)
